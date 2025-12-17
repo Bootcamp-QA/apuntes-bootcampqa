@@ -1,4 +1,4 @@
-# Tema 2.2.1 Técnicas de Pruebas  
+# Tema 2.2 Técnicas de Pruebas  
 Basado en el estándar ISTQB
 
 ## Video de la clase
