@@ -3,8 +3,11 @@
 ## Videos de la clase
 
 [Ver clase: Diseño de pruebas en gherkin para menu - 25 min](https://bootcampqa.com/videos/manual-creacion-pruebas-gherkin.mp4)
+
 [Ver clase: Diseño de pruebas en gherkin para menu - 25 min](https://bootcampqa.com/videos/manual-creacion-pruebas-gherkin.mp4)
+
 [Ver clase: Diseño de pruebas en gherkin para menu - 25 min](https://bootcampqa.com/videos/manual-creacion-pruebas-gherkin.mp4)
+
 [Ver clase: Diseño de pruebas en gherkin para menu - 25 min](https://bootcampqa.com/videos/manual-creacion-pruebas-gherkin.mp4)
 
 ## Apuntes
