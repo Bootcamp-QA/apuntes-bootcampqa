@@ -1,9 +1,9 @@
-# Tema 6 · BDD (Behaviour-Driven Development)
+# Tema 1.3 - BDD (Behaviour-Driven Development)
 
 ## Video de la clase
 
-Ver video: BDD - 15 min
-[https://bootcampqa.com/videos/bdd.mp4](https://bootcampqa.com/videos/bdd.mp4)
+
+[Ver clase: BDD - 15 min](https://bootcampqa.com/videos/bdd.mp4)
 
 ## Apuntes
 

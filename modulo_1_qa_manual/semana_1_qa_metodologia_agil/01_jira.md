@@ -1,9 +1,9 @@
-# Tema 4 · JIRA
+# Tema 1.1 - JIRA
 
 ## Video de la clase
 
-Ver video: JIRA - 15 min
-[https://bootcampqa.com/videos/jira.mp4](https://bootcampqa.com/videos/jira.mp4)
+
+[Ver clase: JIRA - 15 min](https://bootcampqa.com/videos/jira.mp4)
 
 ## Apuntes
 

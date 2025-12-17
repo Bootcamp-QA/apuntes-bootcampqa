@@ -1,7 +1,7 @@
-# Tema 2 · Los 7 Principios de las Pruebas
+# Tema 2 - Los 7 Principios de las Pruebas
 
 ## Video de la clase 
-[Ver video: Los 7 Principios de las Pruebas - 15 minutos](https://bootcampqa.com/videos/7principiosdepruebas.mp4)
+[Ver clase: Los 7 Principios de las Pruebas - 15 minutos](https://bootcampqa.com/videos/7principiosdepruebas.mp4)
 
 
 ## Apuntes

@@ -1,8 +1,8 @@
-# Tema 1 · Introducción a QA Testing
+# Tema 1 - Introducción a QA Testing
 
 ## Video de la clase
 
-[Ver video: Introducción a QA Testing - 10 min](https://bootcampqa.com/videos/introduccion_a_qa.mp4)
+[Ver clase: Introducción a QA Testing - 10 min](https://bootcampqa.com/videos/introduccion_a_qa.mp4)
 
 
 ## Apuntes

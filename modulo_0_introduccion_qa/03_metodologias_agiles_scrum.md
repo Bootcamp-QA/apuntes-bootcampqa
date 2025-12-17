@@ -1,9 +1,8 @@
-# Tema 3 · Metodologías Ágiles
+# Tema 3 - Metodologías Ágiles
 
 ## Video de la clase
 
-Ver video: Metodologías Ágiles - 30 min
-[https://bootcampqa.com/videos/metodologiasagiles.mp4](https://bootcampqa.com/videos/metodologiasagiles.mp4)
+[Ver clase: Metodologías Ágiles - 30 min](https://bootcampqa.com/videos/metodologiasagiles.mp4)
 
 ## Apuntes
 

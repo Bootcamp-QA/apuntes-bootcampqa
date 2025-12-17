@@ -1,9 +1,9 @@
-# Tema 5 · Historias de Usuario
+# Tema 1.2 - Historias de Usuario
 
 ## Video de la clase
 
-Ver video: Historias de Usuario - 15 min
-[https://bootcampqa.com/videos/historiasdeusuario.mp4](https://bootcampqa.com/videos/historiasdeusuario.mp4)
+
+[Ver clase: Historias de Usuario - 15 min](https://bootcampqa.com/videos/historiasdeusuario.mp4)
 
 ## Apuntes
 
