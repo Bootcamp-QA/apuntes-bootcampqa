@@ -79,7 +79,7 @@ Si hay algo de la semana anterior a corregir a la siguiente semana debe entregar
 **Objetivo:** Diseñar pruebas para cada historia de usuario creada aplicando técnicas de prueba adecuadas.
 * Crear un **Sprint en Jira de 1 semana** con todas las historias de usuario.
 
-* Definir los casos de prueba en Jira usando la herramienta de gestión de pruebas y el lenguaje Gherkin para todas las historias de usuario. Una vez estén realizadas las pruebas, pasar a estado QA.
+* Definir los casos de prueba en Jira usando la herramienta de gestión de pruebas y el lenguaje Gherkin para todas las historias de usuario. Una vez estén creadas las pruebas, pasar a estado QA.
 
 ## Semana 3 - Ejecución de pruebas, reporte de errores y generación de reportes (45%)
 
