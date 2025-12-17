@@ -10,7 +10,7 @@ Cada semana habrá **una clase en directo** con la siguiente estructura:
 
 2. **Introducción al trabajo de la semana siguiente**
    - Se explicará el trabajo a realizar durante la semana siguiente.
-   - Si es necesario configurar alguna herramienta o entorno, se hará durante la clase para que todos estén listos para comenzar.
+   - Si es necesario configurar alguna herramienta o entorno, se hará durante la clase para que todas estén listas para comenzar.
 
 3. **Trabajo práctico en clase según tipo de módulo**
    - **Módulos 1 y 4 (Trabajo en equipo)**
