@@ -11,7 +11,7 @@ Puede hacerse en inglés (recomendado) o español. Importante, todo el proyecto 
 
 ---
 
-## Semana 1: SQL **40%**
+## Semana 6: SQL **40%**
 
 ### 1. Configuración
 1. Crear un nuevo proyecto en Supabase y realiza las siguientes consultas SQL
@@ -85,7 +85,7 @@ Insertar **10 registros de prueba** en la tabla utilizando como referencia los s
 
 ---
 
-## Semana 2: API Testing  **45%**
+## Semana 7: API Testing  **45%**
 
 ### 1. Documentación de la API  **5%**
 
@@ -163,7 +163,7 @@ Agrega test para validar códigos de respuesta.
 
 ---
 
-## Integración Continua con GitHub **15%**
+## Semana 8: Integración Continua con GitHub **15%**
 
 ### 1. Integración con Proyecto HTML  **5%**
 

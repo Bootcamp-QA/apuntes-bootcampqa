@@ -33,7 +33,7 @@
 
 ## 3. Ejercicios
 
-### Tema 2. Variables (1h - 2h)
+### Tema 1. Variables (1h - 2h)
 
 #### Ejercicio 1: Películas
 1. Declara variables para guardar la información de tu película favorita:
@@ -60,7 +60,7 @@
 
 ---
 
-### Tema 3. Operaciones Matemáticas (2h - 3h)
+### Tema 2. Operaciones Matemáticas y Manipulación de Cadenas (3h - 5h)
 
 #### Ejercicio 1: Calculadora
 1. Pide al usuario dos números.
@@ -80,18 +80,14 @@
 4. Añade el 21% de IVA al total.
 5. Muestra el precio final.
 
----
-
-### Tema 4. Manipulación de Cadenas (1h - 2h)
-
-#### Ejercicio 1: Frases
+#### Ejercicio 3: Frases
 1. Pide al usuario que introduzca una frase.
 2. Muestra:
    1. La longitud de la frase.
    2. La frase en mayúsculas.
    3. La frase en minúsculas.
 
-#### Ejercicio 2: Correo Electrónico
+#### Ejercicio 4: Correo Electrónico
 1. Pide al usuario que introduzca una dirección de correo electrónico.
 2. Muestra:
    1. La longitud del correo.
@@ -100,7 +96,7 @@
 
 ---
 
-### Tema 5. Funciones (2h - 3h)
+### Tema 3. Funciones (2h - 3h)
 
 #### Ejercicio 1: Precio Total de un Producto
 1. Solicita al usuario:
@@ -121,7 +117,7 @@
 
 ---
 
-### Tema 6. Condicionales (2h - 3h)
+### Tema 4. Condicionales (2h - 3h)
 
 #### Ejercicio 1: Ruleta de la Fortuna de los Colores
 1. Pide al usuario que elija un color:
@@ -146,7 +142,7 @@
 
 ---
 
-### Tema 7. Bucles (2h - 4h)
+### Tema 5. Bucles (2h - 4h)
 
 #### Ejercicio 1: Calculadora de Nota Media
 1. Pide al usuario cuántas notas desea introducir.
@@ -161,7 +157,7 @@
 
 ---
 
-### Tema 8. Listas (1h - 3h)
+### Tema 6. Listas (1h - 3h)
 
 #### Ejercicio 1: Planetas del Sistema Solar
 1. Crea una lista con los 8 planetas del sistema solar.

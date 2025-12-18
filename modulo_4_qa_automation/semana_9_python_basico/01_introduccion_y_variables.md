@@ -7,7 +7,7 @@
 
 ## Apuntes
 
-### Introducción
+### 1.Introducción
 
 Python es un lenguaje de programación fácil de aprender y muy poderoso. Es ideal para principiantes, y también es usado en una gran variedad de proyectos profesionales.
 
@@ -26,7 +26,7 @@ Para ejecutar tu archivo Python, escribe el siguiente comando en la terminal int
 Por ejemplo, si tu archivo se llama hola_mundo.py, ejecuta:
 `python hola_mundo.py`
 
-### Variables
+### 2.Variables
 2. Variables
 Las variables en Python no necesitan ser declaradas explícitamente. Puedes asignarles cualquier tipo de dato.
 ```

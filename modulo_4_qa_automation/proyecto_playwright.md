@@ -6,7 +6,7 @@ En este proyecto se automatizarán pruebas de regresión sobre una aplicación w
 Se trabajará con una estructura basada en **Page Object Model**, integración continua con **GitHub Actions** y adaptación de las pruebas para versión móvil.
 
 
-## Semana 1: Creación del Proyecto y Automatización Básica  
+## Semana 11: Creación del Proyecto y Automatización Básica  
 **30%**
 
 ### 1. Creación del Proyecto en GitHub
@@ -26,7 +26,7 @@ Automatizar las pruebas de regresión para las siguientes secciones de la web:
 
 ---
 
-## Semana 2: Automatización de Pruebas Funcionales  
+## Semana 12: Automatización de Pruebas Funcionales  
 **30%**
 
 ### 1. Formulario de Contacto
@@ -52,7 +52,7 @@ Automatizar las pruebas de filtros:
 
 ---
 
-## Semana 3: Page Object Model y GitHub Actions  
+## Semana 13: Page Object Model y GitHub Actions  
 **20%**
 
 ### 1. Page Object Model
@@ -69,7 +69,7 @@ Automatizar las pruebas de filtros:
 
 ---
 
-## Semana 4: Pruebas en Versión Móvil  
+## Semana 14: Pruebas en Versión Móvil  
 **20%**
 
 ### 1. Adaptación a Versión Móvil

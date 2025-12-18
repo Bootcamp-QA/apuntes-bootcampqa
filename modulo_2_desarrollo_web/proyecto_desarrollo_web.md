@@ -10,24 +10,24 @@ Se recomienda realizarlo **en inglés** si se tiene conocimiento del idioma, ya 
 
 ---
 
-## Semana 1: Crear Proyecto en GitHub y Modificar su Contenido - 65%
+## Semana 4: Crear Proyecto en GitHub y Modificar su Contenido - 65%
 
-### Creación y Publicación
-- Crear el repositorio del portafolio en GitHub usando una plantilla. **(5%)**
-- Publicar el proyecto en GitHub Pages. **(5%)**
+### Creación y Publicación 15%
+- Crear el repositorio del portafolio en GitHub usando una plantilla. 
+- Publicar el proyecto en GitHub Pages. 
 - Actualizar el `README.md` con:
   - URL del sitio publicado.
-  - Enlace al perfil de LinkedIn. **(5%)**
+  - Enlace al perfil de LinkedIn.
 
-### Modificación contenido con HTML5
-- Cabecera: nombre, título profesional y enlaces a LinkedIn y GitHub. **(10%)**
-- About Me: descripción personal y profesional. **(10%)**
-- Proyectos: enlaces y descripción de proyectos de QA. **(15%)**
-- Formación: estudios, cursos o certificaciones. **(15%)**
+### Modificación contenido con HTML5 50%
+- Cabecera: nombre, título profesional y enlaces a LinkedIn y GitHub. 
+- About Me: descripción personal y profesional. 
+- Proyectos: enlaces y descripción de proyectos de QA. 
+- Formación: estudios, cursos o certificaciones. 
 
 ---
 
-## Semana 2: Personalización del Portafolio - 85% 
+## Semana 5: Personalización del Portafolio - 45% 
 
 ### Validaciones del Formulario con HTML5 **(20%)**
 - Nombre: opcional.
@@ -35,11 +35,10 @@ Se recomienda realizarlo **en inglés** si se tiene conocimiento del idioma, ya 
 - Asunto: obligatorio.
 - Mensaje: obligatorio, máximo 500 caracteres.
 
-### Personalización de estilos con CSS3 **(20%)**
-- Cambio de colores.
-- Cambio de tipografía.
-- Ajuste de márgenes y alineación.
-- Modificación del tamaño de las letras.
+### Personalización de estilos con CSS3 **(25%)**
+- Cambio de colores de fondo, de letras o enlaces.
+- Cambio de tipo o tamaño de letra.
+- Cambiar márgenes o alineación.
 
 
 
