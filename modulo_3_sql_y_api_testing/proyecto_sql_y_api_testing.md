@@ -44,7 +44,7 @@ Insertar **10 registros de prueba** en la tabla utilizando como referencia los s
 | ana    | ana@gmail.com      | vacío | information   | hola testing         |
 | vacío  | pedro@gmail.com    | 20    | job           | pedro mensaje        |
 | maria  | maria@yahoo.com    | 25    | other         | mensaje de prueba    |
-| ana    | ana.work@gmail.com | 30    | job           | test api message     |
+| ana    | ana.work@gmail.com | 30    | job           | test message         |
 | vacío  | user1@gmail.com    | 22    | information   | mensaje testing      |
 | pedro  | pedro@test.com     | 35    | other         | test mensaje largo   |
 | juan   | juan@gmail.com     | vacío | job           | hola qa testing      |
@@ -71,14 +71,14 @@ Insertar **10 registros de prueba** en la tabla utilizando como referencia los s
 
 ### 5. Actualizar Datos `update.sql`  **5%**
 
-1. Filtrar por nombre `laura` y cambiar el email a `lauratest@gmail.com`.
-2. Filtrar por edad 20 y cambiar la edad a 21.
+1. Cambiar email de laura por `lauratest@gmail.com`.
+2. Cambiar edad 20 por a 21.
 
 ---
 
 ### 6. Eliminar Datos `delete.sql`  **5%**
 
-1. Eliminar todos los registros con edad 18.
+1. Eliminar todos los registros con edad 30.
 2. Eliminar todos los registros con nombre `pedro`.
 
 
