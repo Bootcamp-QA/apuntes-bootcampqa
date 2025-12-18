@@ -1,4 +1,3 @@
-```markdown
 # PROYECTO AUTOMATIZACIÓN DE PRUEBAS CON PLAYWRIGHT (PYTHON)
 
 ## Descripción del Proyecto

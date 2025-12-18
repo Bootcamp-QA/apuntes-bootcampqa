@@ -1,4 +1,3 @@
-```markdown
 # EJERCICIOS PYTHON
 
 ## 1. Instrucciones
