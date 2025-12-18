@@ -19,19 +19,33 @@ La idea principal es **separar la lógica de la página de la lógica de los tes
 ## Estructura básica del proyecto
 
 project/
+
 │
+
 ├── pages/
+
 │   ├── components/          # Elementos reutilizables como el menú, header o footer
+
 │   ├── home_page.py         # Clase para la página Home
+
 │   ├── contact_page.py      # Clase para la página Contact
+
 │   └── about_page.py        # Clase para la página About
+
 │
+
 ├── tests/
+
 │   ├── test_home.py         # Tests relacionados con Home
+
 │   ├── test_contact.py      # Tests del formulario de contacto
+
 │   └── test_about.py        # Tests de About
+
 │
+
 └── requirements.txt
+
 
 ## Carpeta `pages`
 
@@ -78,14 +92,23 @@ project/
 ## Ejemplo
 
 project/
+
 │
+
 ├── pages/
+
 │   └── home_page.py        # Clase para la página Home
+
 │
+
 ├── tests/
+
 │   └── test_home.py        # Tests relacionados con home
+
 │
+
 └── requirements.txt
+
 
 home_page.py
 ---
