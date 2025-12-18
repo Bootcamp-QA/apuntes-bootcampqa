@@ -19,19 +19,33 @@ La idea principal es **separar la lógica de la página de la lógica de los tes
 ## Estructura básica del proyecto
 
 project/
+
 │
+
 ├── pages/
+
 │   ├── components/          # Elementos reutilizables como el menú, header o footer
+
 │   ├── home_page.py         # Clase para la página Home
+
 │   ├── contact_page.py      # Clase para la página Contact
+
 │   └── about_page.py        # Clase para la página About
+
 │
+
 ├── tests/
+
 │   ├── test_home.py         # Tests relacionados con Home
+
 │   ├── test_contact.py      # Tests del formulario de contacto
+
 │   └── test_about.py        # Tests de About
+
 │
+
 └── requirements.txt
+
 
 ## Carpeta `pages`
 
@@ -78,25 +92,33 @@ project/
 ## Ejemplo
 
 project/
+
 │
+
 ├── pages/
+
 │   └── home_page.py        # Clase para la página Home
+
 │
+
 ├── tests/
+
 │   └── test_home.py        # Tests relacionados con home
+
 │
+
 └── requirements.txt
+
 
 home_page.py
 ---
 
-from playwright.sync_api import Page
-
-class HomePage:
+    from playwright.sync_api import Page
+    class HomePage:
     def __init__(self, page: Page):
         self.page = page
         self.url = "https://bootcampqa.com"
-
+        
     def open_home_page(self):
         print("Given user visits homepage")
         self.page.goto(self.url)
@@ -105,17 +127,15 @@ class HomePage:
         print("Then user should see home page")
         expect(page).to_have_url(self.url)
 
-
----
 test_home.py
-
 ---
-from playwright.sync_api import Page, expect
-from pages.home_page import HomePage
+    from pages.home_page import HomePage
+    
+    def test_visit(page: Page):
+        home_page = HomePage(page)
+        home_page.open_home_page()
+        home_page.verify_home_page_url()
 
-def test_visit(page: Page):
-    home_page = HomePage(page)
-    home_page.open_home_page()
-    home_page.verify_home_page_url()
+
     
 
