@@ -1,4 +1,3 @@
-```markdown
 # PROYECTO SQL Y API TESTING
 
 ## Descripción del Proyecto
