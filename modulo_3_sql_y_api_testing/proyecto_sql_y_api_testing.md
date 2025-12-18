@@ -71,7 +71,7 @@ Insertar **10 registros de prueba** en la tabla utilizando como referencia los s
 
 ### 5. Actualizar Datos `update.sql`  **5%**
 
-1. Filtrar por nombre `ana` y cambiar el email a `ana@gmail.com`.
+1. Filtrar por nombre `laura` y cambiar el email a `lauratest@gmail.com`.
 2. Filtrar por edad 20 y cambiar la edad a 21.
 
 ---
