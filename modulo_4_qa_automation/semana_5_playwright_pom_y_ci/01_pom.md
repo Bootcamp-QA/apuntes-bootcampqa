@@ -113,13 +113,12 @@ project/
 home_page.py
 ---
 
-from playwright.sync_api import Page
-
-class HomePage:
+    from playwright.sync_api import Page
+    class HomePage:
     def __init__(self, page: Page):
         self.page = page
         self.url = "https://bootcampqa.com"
-
+        
     def open_home_page(self):
         print("Given user visits homepage")
         self.page.goto(self.url)
@@ -128,17 +127,15 @@ class HomePage:
         print("Then user should see home page")
         expect(page).to_have_url(self.url)
 
-
----
 test_home.py
-
 ---
-from playwright.sync_api import Page, expect
-from pages.home_page import HomePage
+    from pages.home_page import HomePage
+    
+    def test_visit(page: Page):
+        home_page = HomePage(page)
+        home_page.open_home_page()
+        home_page.verify_home_page_url()
 
-def test_visit(page: Page):
-    home_page = HomePage(page)
-    home_page.open_home_page()
-    home_page.verify_home_page_url()
+
     
 
