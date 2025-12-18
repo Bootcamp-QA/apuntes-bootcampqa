@@ -1,4 +1,4 @@
-# Tema 3.3 Consultas SQL
+# Tema 2.6 Introducción a CSS3
 
 # Video de la clase
 

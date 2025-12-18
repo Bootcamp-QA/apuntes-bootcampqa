@@ -1,4 +1,4 @@
-# Tema 2.3 Diseño Pruebas en Gherkin
+# Tema 1.7 Diseño Pruebas en Gherkin
 
 ## Videos de la clase
 
