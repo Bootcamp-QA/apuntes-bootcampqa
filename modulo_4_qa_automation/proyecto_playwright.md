@@ -6,10 +6,9 @@ En este proyecto se automatizarán pruebas de regresión sobre una aplicación w
 Se trabajará con una estructura basada en **Page Object Model**, integración continua con **GitHub Actions** y adaptación de las pruebas para versión móvil.
 
 
-## Semana 11: Creación del Proyecto y Automatización Básica  
-**30%**
+## Semana 11: Creación del Proyecto y Automatización Básica **20%**
 
-### 1. Creación del Proyecto en GitHub
+### 1. Creación del Proyecto en GitHub **5%**
 1. Crear un proyecto en GitHub usando la plantilla:  
    https://github.com/Bootcamp-QA/playwright-python-template
 2. Actualizar el archivo `README.md`:
@@ -17,7 +16,7 @@ Se trabajará con una estructura basada en **Page Object Model**, integración c
    2. URL de la web.
 3. Configurar el entorno básico de Playwright con Python.
 
-### 2. Automatización de Pruebas de Regresión Iniciales
+### 2. Automatización de Pruebas de Regresión Iniciales **15%**
 Automatizar las pruebas de regresión para las siguientes secciones de la web:
 
 1. Menú de navegación.
@@ -26,10 +25,9 @@ Automatizar las pruebas de regresión para las siguientes secciones de la web:
 
 ---
 
-## Semana 12: Automatización de Pruebas Funcionales  
-**30%**
+## Semana 12: Automatización de Pruebas Avanzadas y Github Actions **50%**
 
-### 1. Formulario de Contacto
+### 1. Formulario de Contacto **25%**
 
 Automatizar las siguientes pruebas:
 
@@ -41,7 +39,7 @@ Automatizar las siguientes pruebas:
 
 ---
 
-### 2. Filtros
+### 2. Filtros **20%**
 
 Automatizar las pruebas de filtros:
 
@@ -52,33 +50,22 @@ Automatizar las pruebas de filtros:
 
 ---
 
-## Semana 13: Page Object Model y GitHub Actions  
-**20%**
-
-### 1. Page Object Model
-1. Reorganizar el proyecto utilizando el patrón **Page Object Model**.
-2. Crear una carpeta `pages` que contenga las clases de cada página.
-3. Crear una carpeta `tests` que contenga los tests agrupados por funcionalidad.
-4. Los tests deben importar y utilizar las páginas definidas en la carpeta `pages`.
-
-### 2. GitHub Actions
+### 3. GitHub Actions  **5%**
 1. Revisar el workflow de GitHub Actions.
 2. Ejecutar las pruebas en el entorno de GitHub Actions.
 3. Analizar los errores utilizando trazas, logs o reportes de Playwright.
 4. Corregir los fallos hasta que todas las pruebas pasen correctamente en GitHub Actions.
 
----
+## Semana 13: Page Object Model y Pruebas en version Movil  **30%**
 
-## Semana 14: Pruebas en Versión Móvil  
-**20%**
+### 1. Page Object Model **20%**
+1. Reorganizar el proyecto utilizando el patrón **Page Object Model**.
+2. Crear una carpeta `pages` que contenga las clases de cada página.
+3. Crear una carpeta `tests` que contenga los tests agrupados por funcionalidad.
+4. Los tests deben importar y utilizar las páginas definidas en la carpeta `pages`.
 
-### 1. Adaptación a Versión Móvil
+### 1. Adaptación a Versión Móvil **10%**
 1. Modificar las pruebas necesarias para que funcionen correctamente en versión móvil.
 2. Ajustar selectores, resoluciones y comportamientos específicos de dispositivos móviles.
+3. Actualizar el workflow de GitHub Actions para ejecutar las pruebas en versión movil
 
-### 2. GitHub Actions para Móvil
-1. Actualizar el workflow de GitHub Actions para ejecutar las pruebas:
-   1. En versión desktop.
-   2. En versión móvil.
-2. Verificar que las pruebas se ejecutan correctamente en ambos entornos.
-```
