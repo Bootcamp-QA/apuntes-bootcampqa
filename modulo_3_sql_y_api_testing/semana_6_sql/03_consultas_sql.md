@@ -3,7 +3,7 @@
 # Video de la clase
 
 
-[Ver clase: Herramientas de Gestión de Pruebas - 10 min](https://bootcampqa.com/videos/herramientasdegestiondepruebas.mp4)
+[Ver clase: Consultar Datos - Select SQL - 20 min](https://bootcampqa.com/videosapi/sql-filtrar-datos.mp4)
 
 # Apuntes
 
