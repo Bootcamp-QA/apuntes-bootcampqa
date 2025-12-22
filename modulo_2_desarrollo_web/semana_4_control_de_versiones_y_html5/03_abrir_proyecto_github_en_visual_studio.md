@@ -1,9 +1,9 @@
-# Tema 2.3 Abrir proyecto en visual studio
+# Abrir proyecto en visual studio
 
 # Video de la clase
 
 
-[Ver clase: Instalar Visual Studio y Abrir proyecto de github - 10 min](https://bootcampqa.com/videos/herramientasdegestiondepruebas.mp4)
+[Ver clase: Instalar Visual Studio y Abrir proyecto de github - 5 min](https://bootcampqa.com/videosauto/auto-abrir-proyecto-github.mp4)
 
 # Apuntes
 
