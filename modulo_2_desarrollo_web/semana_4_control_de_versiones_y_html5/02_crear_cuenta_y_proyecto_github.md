@@ -1,12 +1,15 @@
-# Tema 2.2 Crear cuenta y proyecto en Github
+# Crear cuenta y proyecto en Github
 
 # Video de la clase
 
 
-[Ver clase: Crear Cuenta Github - 20 min](https://bootcampqa.com/videos/herramientasdegestiondepruebas.mp4)
-[Ver clase: Crear Proyecto Github usando Plantilla - 10 min](https://bootcampqa.com/videos/herramientasdegestiondepruebas.mp4)
-[Ver clase: Crear Proyecto Github - 10 min](https://bootcampqa.com/videos/herramientasdegestiondepruebas.mp4)
-[Ver clase: Publicar web con github pages - 10 min](https://bootcampqa.com/videos/herramientasdegestiondepruebas.mp4)
+[Ver clase: Crear Cuenta Github - 20 min](https://bootcampqa.com/videos/crearCuentaGithub.mp4)
+
+[Ver clase: Crear Proyecto Github usando Plantilla - 10 min](https://bootcampqa.com/videosauto/auto-crear-proyecto-usando-plantilla.mp4)
+
+[Ver clase: Crear Proyecto Github de cero - 10 min](https://bootcampqa.com/videos/crearproyectogithub.mp4)
+
+[Ver clase: Publicar web con github pages - 5 min](https://bootcampqa.com/videosauto/auto-publicarpagina-editar-readme.mp4)
 
 # Apuntes
 
