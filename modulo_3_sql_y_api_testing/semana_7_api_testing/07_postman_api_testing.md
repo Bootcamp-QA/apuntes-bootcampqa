@@ -1,5 +1,6 @@
-# Bootcamp QA - Postman
+# API Testing con Postman
 
+[Ver clase: Configurar cuenta en POSTMAN - 25 min](https://bootcampqa.com/videosapi/api-crear-proyecto-postman-coleccion.mp4)
 
 ## 1. Creación de Cuenta en Postman
 
