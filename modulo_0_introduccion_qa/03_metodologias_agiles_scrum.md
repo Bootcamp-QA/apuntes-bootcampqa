@@ -76,7 +76,7 @@
 
 * Product Owner: define qué se hace, por qué y en qué orden según valor
 * Scrum Master: líder, NO jefe; parte del equipo, motiva y facilita, ayuda a seguir las reglas de Scrum
-* Equipo de desarrollo: multidisciplinar, define cómo se hace y desarrolla las tareas del proyecto
+* Equipo de desarrollo: multidisciplinar (desarrolladores frontend y backend, diseñadores ux, qa), define cómo se hace y desarrolla las tareas del proyecto
 
 ### Desarrollo iterativo e incremental
 
