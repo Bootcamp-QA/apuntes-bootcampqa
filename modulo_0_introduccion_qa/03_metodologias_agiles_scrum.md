@@ -1,4 +1,4 @@
-# Tema 3 - Metodologías Ágiles
+# Metodologías Ágiles
 
 ## Video de la clase
 
