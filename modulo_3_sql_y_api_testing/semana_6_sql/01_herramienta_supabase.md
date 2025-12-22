@@ -1,14 +1,9 @@
 # Herramienta Supabase
 
-# Clase en directo
-- Crear cuenta y proyecto en supabase.
-- Generar API y documentación en proyecto de github.
+# Clase
+[Ver clase: Crear proyecto Supabase - 5 min](https://bootcampqa.com/videosapi/api-crear-proyecto-supabase.mp4)
 
 # Apuntes
-
-# Manual de Supabase - Bootcamp QA
-
----
 
 ## 1. ¿Qué es Supabase?
 
