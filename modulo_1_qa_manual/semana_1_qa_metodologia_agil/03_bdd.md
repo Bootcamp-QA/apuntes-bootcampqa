@@ -1,4 +1,4 @@
-# Tema 1.3 - BDD (Behaviour-Driven Development)
+# BDD (Behaviour-Driven Development)
 
 ## Video de la clase
 
