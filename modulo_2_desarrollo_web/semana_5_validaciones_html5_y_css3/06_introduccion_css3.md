@@ -3,7 +3,8 @@
 # Video de la clase
 
 
-[Ver clase: Herramientas de Gestión de Pruebas - 15 min](https://bootcampqa.com/videos/introduccioncss.mp4)
+[Ver clase: CSS3 - 15 min](https://bootcampqa.com/videos/introduccioncss.mp4)
+[Ver clase: Modificar CSS3 y subir cambios a github - 10 min](https://bootcampqa.com/videosauto/auto-editar-css-github.mp4)
 
 # Apuntes
 # CSS
