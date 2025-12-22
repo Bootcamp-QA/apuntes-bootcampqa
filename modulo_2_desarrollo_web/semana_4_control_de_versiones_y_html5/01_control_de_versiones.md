@@ -1,9 +1,9 @@
-# Tema 2.1 Control de Versiones
+# Control de Versiones
 
 # Video de la clase
 
 
-[Ver clase: Control de Versiones - 10 min](https://bootcampqa.com/videos/herramientasdegestiondepruebas.mp4)
+[Ver clase: Control de Versiones - 10 min](https://bootcampqa.com/videos/controldeversiones.mp4)
 
 # Apuntes
 
