@@ -43,4 +43,4 @@ Cuanta más información se registre, mejor será la trazabilidad de la prueba.
 - Tras completar una prueba, ya sea pasada o fallida, continúa con la siguiente hasta ejecutar todas las pruebas definidas en la historia de usuario.  
 - Una vez que **todas las pruebas estén ejecutadas y marcadas como Pasadas o Fallidas**, la historia de usuario puede considerarse completamente probada.  
 - La historia de usuario debe cerrarse únicamente cuando todas las pruebas estén finalizadas y los resultados correctamente registrados.
-```
+
