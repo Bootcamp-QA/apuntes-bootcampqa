@@ -1,4 +1,4 @@
-# Tema 1.5 Técnicas de Pruebas  
+# Técnicas de Pruebas  
 Basado en el estándar ISTQB
 
 ## Video de la clase
@@ -308,5 +308,3 @@ Cada requisito debe tener al menos un caso de prueba asociado.
 
 Las técnicas de pruebas de caja negra son fundamentales para garantizar que el software cumple con los requisitos funcionales y las expectativas del usuario.  
 Combinadas con otras técnicas, permiten lograr una mayor calidad del producto final.
-
-¡
