@@ -1,9 +1,9 @@
-# Tema 2.6 Introducción a CSS3
+# Introducción a CSS3
 
 # Video de la clase
 
 
-[Ver clase: Herramientas de Gestión de Pruebas - 10 min](https://bootcampqa.com/videos/herramientasdegestiondepruebas.mp4)
+[Ver clase: Herramientas de Gestión de Pruebas - 15 min](https://bootcampqa.com/videos/introduccioncss.mp4)
 
 # Apuntes
 # CSS
