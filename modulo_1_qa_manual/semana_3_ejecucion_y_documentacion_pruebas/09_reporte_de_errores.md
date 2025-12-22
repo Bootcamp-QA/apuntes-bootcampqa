@@ -47,18 +47,13 @@ Indica con qué historia de usuario está relacionado el error siguiendo estos p
 
 Pulsa el botón **Crear**.
 
-## Corrección de errores
+## Pruebas de Verificación o Validación
 
 - Abre en Jira el backlog del proyecto donde debe aparecer el error que has creado.  
 - Arrastra el ticket de error al sprint.  
 - Vuelve al tablero y mueve el error a la columna **In Progress**.  
-- Arregla el error y súbelo a GitHub siguiendo los pasos de desarrollo web.  
-- Mueve el error a la columna **QA** para volver a probarlo.  
-- Abre la ejecución de pruebas en la pestaña **Zephyr**.  
-- Selecciona el caso de prueba que ha fallado y ha causado el error.  
+- Una vez arreglado el error mueve el error a la columna **QA** para volver a probarlo.  
 - Vuelve a ejecutar únicamente ese caso de prueba fallado tanto en **Desktop** como en **Mobile**.  
-
-### Resultado de la validación
-
-- Si obtienes el resultado esperado, marca el test como **Passed** y mueve el bug a la columna **Done**.  
+- Si obtienes el resultado esperado, marca el test como **Passed** y mueve el bug a la columna **Done**.
+- Ejecuta las pruebas de regresión tras validar los errores, para asegurar que con el arreglo no ha sido afectada ninguna funcionalidad importante.
 - Si no obtienes el resultado esperado, vuelve a marcar el test como **Failed**, mueve el bug a la columna **In Progress** y repite el proceso.
