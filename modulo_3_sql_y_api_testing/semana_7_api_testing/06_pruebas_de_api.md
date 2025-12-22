@@ -2,7 +2,7 @@
 
 # Apuntes
 
-# Manual de API Testing - Bootcamp QA
+# Manual de API Testing
 
 ## ¿Qué es API Testing?
 
