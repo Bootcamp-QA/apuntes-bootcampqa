@@ -1,5 +1,4 @@
-# Tema 1.4 - Niveles y Tipos de Pruebas  
-Basado en el estándar ISTQB
+# Niveles y Tipos de Pruebas Basado en el estándar ISTQB
 
 # Video de la clase
 
