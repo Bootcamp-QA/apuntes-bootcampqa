@@ -3,10 +3,46 @@
 # Video de la clase
 
 
-[Ver clase: Herramientas de Gestión de Pruebas - 10 min](https://bootcampqa.com/videos/herramientasdegestiondepruebas.mp4)
+[Ver clase: Release, Pruebas de Regresión y Pruebas Exploratorias - 15 min](https://bootcampqa.com/videos/manual-release-regression-exploratory.mp4)
 
 # Apuntes
 ## Control de release version y Ejecución de pruebas de Regresión
+
+## Qué es una Release o Versión
+
+Una release es una puesta en producción (entrega al usuario final) de una nueva versión de nuestra web o aplicación.
+
+1. Normalmente la funcionalidad nueva se despliega y prueba en un entorno de pruebas, que no está disponible para nuestro cliente o usuario.
+
+2. Cuando las funcionalidades están listas y probadas, se hace un despliegue a producción, que consiste en agregar estos cambios a la web que usa el cliente, es decir, nuestros cambios estarán disponibles y visibles para nuestros usuarios.
+
+3. Esto puede hacerse al final de cada sprint, de forma mensual, semanal, cada dos días o incluso a diario o varias veces al día si se tiene un proceso automatizado de control de calidad y despliegue.
+
+## Crear una Release o Versión en JIRA
+
+Una release o versión en Jira sirve para agrupar las nuevas funcionalidades o user stories que van a desplegarse en producción, es decir, las nuevas funcionalidades que verán nuestros usuarios.
+
+1. Para crear una nueva versión, ve a la pestaña versiones y haz click en crear versión.
+
+2. En nombre, incluye el nombre de la versión. Se puede poner el nombre que se quiera. Generalmente suele nombrarse como versión 1.0 la primera, 1.1 la segunda y así sucesivamente.
+
+## Agregar la Versión a Historias de Usuario y Bugs Finalizados
+
+Una historia de usuario o un error debe estar terminado para incluirse en una release. Esto quiere decir que ha sido desarrollada y probada, lo que indica que cumple los estándares de calidad necesarios para ser entregado al usuario.
+
+1. Para agregar la versión, abre la historia de usuario o error que tienes en Done.
+
+2. En el campo Versiones Corregidas elige la que acabas de crear, por ejemplo 1.1.
+
+3. Repite el proceso por todas las historias y errores completos (columna Done).
+4. No incluya los errores no completos
+
+## Completar la Release y Cerrar el Sprint
+
+En releases, marca la release como released (entregada). Esto significa que se ha desplegado en producción.
+
+Cierra el Sprint al completar las dos semanas.
+
 
 ## Pruebas de Regresión
 
@@ -47,36 +83,10 @@ Una vez terminas todas las historias de usuario de tu sprint, crea una nueva tar
 
 5. Una vez pasadas todas las pruebas, puedes completar la tarea de pruebas de regresión.
 
-## Qué es una Release o Versión
+## Ejecutar Pruebas Exploratorias
+Las pruebas exploratorias son una forma de probar un sistema sin seguir un plan rígido ni casos de prueba formales. Consisten en usar la aplicación con curiosidad, como lo haría un usuario real, probando cosas que normalmente no están documentadas o que no se suelen probar. La idea es aprender del sistema mientras se prueba y, al mismo tiempo, descubrir fallos.
 
-Una release es una puesta en producción (entrega al usuario final) de una nueva versión de nuestra web o aplicación.
+Para hacerlas, simplemente se interactúa con el sistema de manera libre: se combinan acciones poco comunes, se ingresan datos inesperados, se navega sin un orden específico y se intenta “romper” la aplicación probando escenarios que se te ocurran en el momento. No hay pasos estrictos, se trata de experimentar, imaginar situaciones raras o límites y observar qué sucede.
 
-1. Normalmente la funcionalidad nueva se despliega y prueba en un entorno de pruebas, que no está disponible para nuestro cliente o usuario.
+Durante estas pruebas es muy importante anotar cualquier error, comportamiento extraño o duda, incluso si no se está seguro de que sea un fallo. Todo se registra para luego analizarlo, ya que muchas veces los errores más importantes aparecen justamente en este tipo de pruebas menos formales y más creativas.
 
-2. Cuando las funcionalidades están listas y probadas, se hace un despliegue a producción, que consiste en agregar estos cambios a la web que usa el cliente, es decir, nuestros cambios estarán disponibles y visibles para nuestros usuarios.
-
-3. Esto puede hacerse al final de cada sprint, de forma mensual, semanal, cada dos días o incluso a diario o varias veces al día si se tiene un proceso automatizado de control de calidad y despliegue.
-
-## Crear una Release o Versión en JIRA
-
-Una release o versión en Jira sirve para agrupar las nuevas funcionalidades o user stories que van a desplegarse en producción, es decir, las nuevas funcionalidades que verán nuestros usuarios.
-
-1. Para crear una nueva versión, ve a la pestaña versiones y haz click en crear versión.
-
-2. En nombre, incluye el nombre de la versión. Se puede poner el nombre que se quiera. Generalmente suele nombrarse como versión 1.0 la primera, 1.1 la segunda y así sucesivamente.
-
-## Agregar la Versión a Historias de Usuario y Bugs Finalizados
-
-Una historia de usuario o un error debe estar terminado para incluirse en una release. Esto quiere decir que ha sido desarrollada y probada, lo que indica que cumple los estándares de calidad necesarios para ser entregado al usuario.
-
-1. Para agregar la versión, abre la historia de usuario o error que tienes en Done.
-
-2. En el campo Versiones Corregidas elige la que acabas de crear, por ejemplo 1.1.
-
-3. Repite el proceso por todas las historias y errores completos (columna Done).
-
-## Completar la Release y Cerrar el Sprint
-
-En releases, marca la release como released (entregada). Esto significa que se ha desplegado en producción.
-
-Cierra el Sprint al completar las dos semanas.
