@@ -1,10 +1,11 @@
-# Tema 2.4 Introducción a HTML5
+# Introducción a HTML5
 
 # Video de la clase
 
 
-[Ver clase: HTML5 - 40 min](https://bootcampqa.com/videos/herramientasdegestiondepruebas.mp4)
-[Ver clase: Modificar HTML5 y subir cambios a github - 10 min](https://bootcampqa.com/videos/herramientasdegestiondepruebas.mp4)
+[Ver clase: HTML5 - 40 min](https://bootcampqa.com/videos/introduccionhtml.mp4)
+
+[Ver clase: Modificar HTML5 y subir cambios a github - 10 min](https://bootcampqa.com/videosauto/auto-editar-html-subir-cambios.mp4)
 
 # Apuntes
 
