@@ -3,7 +3,7 @@
 # Video de la clase
 
 
-[Ver clase: Herramientas de Gestión de Pruebas - 10 min](https://bootcampqa.com/videos/herramientasdegestiondepruebas.mp4)
+[Ver clase: Qué es SQL, Crear tablas e Insertar Datos - 20 min](https://bootcampqa.com/videosapi/sql-crear-insertar-datos.mp4)
 
 # Apuntes
 
