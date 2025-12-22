@@ -1,4 +1,4 @@
-# Tema 1.2 - Historias de Usuario
+# Historias de Usuario
 
 ## Video de la clase
 
