@@ -1,9 +1,9 @@
-# Tema 2.5 Validación de formularios en html5
+# Validación de formularios en html5
 
 # Video de la clase
 
 
-[Ver clase: Formularios y validaciones html5 - 20 min](https://bootcampqa.com/videos/herramientasdegestiondepruebas.mp4)
+[Ver clase: Formularios y validaciones html5 - 20 min](https://bootcampqa.com/videos/formularioshtml5.mp4)
 
 # Apuntes
 
