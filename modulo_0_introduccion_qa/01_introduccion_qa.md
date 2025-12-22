@@ -1,4 +1,4 @@
-# Tema 1 - Introducción a QA Testing
+# Introducción a QA Testing
 
 ## Video de la clase
 
