@@ -1,6 +1,18 @@
 # API Testing con Postman
 
-[Ver clase: Configurar cuenta en POSTMAN - 25 min](https://bootcampqa.com/videosapi/api-crear-proyecto-postman-coleccion.mp4)
+[Ver clase: Configurar cuenta en POSTMAN - 5 min](https://bootcampqa.com/videosapi/api-crear-proyecto-postman-coleccion.mp4)
+
+[Ver clase: Peticiones GET: Autentificación - 10 min](https://bootcampqa.com/videosapi/api-get-y-autentificacion.mp4)
+
+[Ver clase: Peticiones GET: Variables y Tests- 30 min](https://bootcampqa.com/videosapi/api-get-variables-tests.mp4)
+
+[Ver clase: Peticiones GET: Casos negativos - 10 min](https://bootcampqa.com/videosapi/api-get-casos-negativos.mp4)
+
+[Ver clase: Peticiones PATCH - 25 min](https://bootcampqa.com/videosapi/api-patch.mp4)
+
+[Ver clase: Peticiones POST - 20 min](https://bootcampqa.com/videosapi/api-post.mp4)
+
+[Ver clase: Peticiones DELETE - 15 min](https://bootcampqa.com/videosapi/api-delete.mp4)
 
 ## 1. Creación de Cuenta en Postman
 
