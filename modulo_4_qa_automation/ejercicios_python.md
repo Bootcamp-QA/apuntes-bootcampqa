@@ -151,9 +151,8 @@
 4. Calcula y muestra la media.
 
 #### Ejercicio 2: Premio Colores
-1. Pide al usuario que introduzca 5 colores.
-2. Si el usuario introduce el color `azul`, muestra que el premio ha sido conseguido.
-3. Si no aparece el color azul, muestra que no se ha ganado el premio.
+1. Pide al usuario 5 veces que introduzca un color.
+2. Si el usuario introduce el color `azul`, muestra que el premio ha sido conseguido, sino dile que pruebe otro color.
 
 ---
 
@@ -169,5 +168,5 @@
 1. Crea una lista con los 12 meses del año.
 2. Pide al usuario un número del 1 al 12.
 3. Muestra el mes correspondiente.
-4. Si el mes es junio, muestra el mensaje: **EL MEJOR MES**.
+4. Si el mes es junio, muestra además el mensaje: **EL MEJOR MES**.
 ```
