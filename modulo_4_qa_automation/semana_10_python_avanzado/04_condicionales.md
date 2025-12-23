@@ -3,7 +3,7 @@
 ## Video de la clase
 
 
-[Ver clase: JIRA - 15 min](https://bootcampqa.com/videos/jira.mp4)
+[Ver clase:  Python Condicionales - 5 min](https://bootcampqa.com/videosauto/pythoncondicionales.mp4)
 
 ## Apuntes
 Los condicionales en Python se implementan con las palabras clave if, elif, y else.

@@ -1,9 +1,9 @@
-# Tema 4.1 - Introducción y Variables Python
+# 3 Funciones
 
 ## Video de la clase
 
 
-[Ver clase: JIRA - 15 min](https://bootcampqa.com/videos/jira.mp4)
+[Ver clase: Python Funciones - 5 min](https://bootcampqa.com/videosauto/pythonfunciones.mp4)
 
 ## Apuntes
 Funciones

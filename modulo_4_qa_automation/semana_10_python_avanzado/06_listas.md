@@ -3,7 +3,7 @@
 ## Video de la clase
 
 
-[Ver clase: JIRA - 15 min](https://bootcampqa.com/videos/jira.mp4)
+[Ver clase: Python Listas - 10 min](https://bootcampqa.com/videosauto/pythonlistas.mp4)
 
 ## Apuntes
 

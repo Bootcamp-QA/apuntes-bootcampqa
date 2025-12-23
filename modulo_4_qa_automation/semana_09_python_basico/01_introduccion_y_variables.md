@@ -1,9 +1,9 @@
-# Tema 4.1 - Introducción y Variables Python
+# 1 Python Introducción y Variables
 
 ## Video de la clase
 
 
-[Ver clase: JIRA - 15 min](https://bootcampqa.com/videos/jira.mp4)
+[Ver clase: Python 1. Introducción y 2. Variables - 10 min](https://bootcampqa.com/videosauto/pythonintroyvariables2.mp4)
 
 ## Apuntes
 

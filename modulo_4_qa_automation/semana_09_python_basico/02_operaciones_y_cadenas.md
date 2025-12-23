@@ -1,13 +1,13 @@
-# Tema 4.2 Operaciones y Cadenas
+# 2 PYTHON OPERACIONES Y CADENAS
 
 ## Video de la clase
 
 
-[Ver clase: JIRA - 15 min](https://bootcampqa.com/videos/jira.mp4)
+[Ver clase: Python Operaciones y Cadenas - 10 min](https://bootcampqa.com/videosauto/pythonoperacionesycadenas.mp4)
 
 ## Apuntes
 
-### 3. Operaciones Matemáticas
+### 1. Operaciones Matemáticas
 Python permite realizar operaciones básicas como suma, resta, multiplicación y división.
 
 ```
@@ -17,7 +17,7 @@ multiplicacion = 5 * 3
 division = 6 / 3
 ```
 
-### 4. Manipulación de Cadenas
+### 2. Manipulación de Cadenas
 Las cadenas (strings) pueden ser manipuladas de varias maneras en Python.
 
 ```
