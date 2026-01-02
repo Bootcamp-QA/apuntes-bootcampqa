@@ -16,12 +16,7 @@ Puede hacerse en inglés (recomendado) o español. Importante, todo el proyecto 
 ### 1. Configuración
 1. Crear un nuevo proyecto en Supabase y realiza las siguientes consultas SQL
 2. En el proyecto portafolio, actualiza el `README.md` e incluye tu enlace al proyecto de Supabase.
-3. Guarda las consultas sql creadas a continuación con los siguientes nombres.
-   1. create.sql  
-   2. insert.sql  
-   3. update.sql  
-   4. delete.sql  
-4. En tu proyecto de github, crea una nueva carpeta llamada sql y agrega los archivos sql creados.
+3. Guarda las consultas sql en la carpeta sql de tu proyecto de portfolio.
 
 ### 2. Crear Tabla `create.sql`  **5%**
 
