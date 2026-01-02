@@ -3,14 +3,14 @@
 ## Descripción del Proyecto
 
 En este proyecto se desarrollará una página web de portafolio profesional para un perfil de **QA (Quality Assurance)** utilizando **GitHub**, **Visual Studio Code**, **HTML5** y **CSS3**.  
-El portafolio permitirá presentar información personal, formación, proyectos de QA, habilidades y un formulario de contacto.
+El portafolio permitirá presentar información personal, formación, proyectos de QA y un formulario de contacto utilizando la plantilla https://github.com/Bootcamp-QA/template-portfolioqa
 
 El proyecto debe estar escrito **completamente en un solo idioma**.  
 Se recomienda realizarlo **en inglés** si se tiene conocimiento del idioma, ya que es un requisito importante y valorado en el área de QA y tecnología. No se debe mezclar inglés y español en el contenido.
 
 ---
 
-## Semana 4: Crear Proyecto en GitHub y Modificar su Contenido - 65%
+## Entrega 1: Crear Proyecto en GitHub y Modificar su Contenido - 65%
 
 ### Creación y Publicación 15%
 - Crear el repositorio del portafolio en GitHub usando una plantilla. 
@@ -22,12 +22,12 @@ Se recomienda realizarlo **en inglés** si se tiene conocimiento del idioma, ya 
 ### Modificación contenido con HTML5 50%
 - Cabecera: nombre, título profesional y enlaces a LinkedIn y GitHub. 
 - About Me: descripción personal y profesional. 
-- Proyectos: enlaces y descripción de proyectos de QA. 
+- Proyectos: enlaces y título de proyectos de QA. 
 - Formación: estudios, cursos o certificaciones. 
 
 ---
 
-## Semana 5: Personalización del Portafolio - 45% 
+## Entrega 2: Personalización del Portafolio - 45% 
 
 ### Validaciones del Formulario con HTML5 **(20%)**
 - Nombre: opcional.
@@ -36,7 +36,7 @@ Se recomienda realizarlo **en inglés** si se tiene conocimiento del idioma, ya 
 - Mensaje: obligatorio, máximo 500 caracteres.
 
 ### Personalización de estilos con CSS3 **(25%)**
-- Cambio de colores de fondo, de letras o enlaces.
+- Cambio de colores de fondo, de letras y enlaces.
 - Cambio de tipo o tamaño de letra.
 - Cambiar márgenes o alineación.
 
