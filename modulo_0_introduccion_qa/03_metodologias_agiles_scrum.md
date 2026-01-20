@@ -2,7 +2,7 @@
 
 ## Video de la clase
 
-[Ver clase: Metodologías Ágiles - 30 min](https://bootcampqa.com/videos/metodologiasagiles.mp4)
+[Ver clase: Metodologías Ágiles - 30 min](https://bootcampqa.com/videos/metodologias_agiles_scrum.mp4)
 
 ## Apuntes
 
