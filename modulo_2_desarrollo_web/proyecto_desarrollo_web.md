@@ -10,7 +10,7 @@ Se recomienda realizarlo **en inglés** si se tiene conocimiento del idioma, ya 
 
 ---
 
-## Entrega 1: Crear Proyecto en GitHub y Modificar su Contenido - 65%
+## Entrega 1: Crear Proyecto en GitHub y Modificar su Contenido
 
 ### Creación y Publicación 15%
 - Crear el repositorio del portafolio en GitHub usando una plantilla. 
@@ -27,7 +27,7 @@ Se recomienda realizarlo **en inglés** si se tiene conocimiento del idioma, ya 
 
 ---
 
-## Entrega 2: Personalización del Portafolio - 45% 
+## Entrega 2: Personalización del Portafolio
 
 ### Validaciones del Formulario con HTML5 **(20%)**
 - Nombre: opcional.
@@ -39,6 +39,25 @@ Se recomienda realizarlo **en inglés** si se tiene conocimiento del idioma, ya 
 - Cambio de colores de fondo, de letras y enlaces.
 - Cambio de tipo o tamaño de letra.
 - Cambiar márgenes o alineación.
+
+# CRITERIOS DE EVALUACIÓN
+
+- Completo: Todos los requisitos completados.
+- Casi completo: 2 requisitos incompletos o 1 requisito sin realizar.
+- Parcialmente completo: Más de 2 requisitos incompletos o más de 1 requisito sin realizar.
+- Incompleto: No realizado.
+
+| Objetivo de aprendizaje                                                         | Completo | Casi completo | Parcialmente completo | Incompleto |
+| ------------------------------------------------------------------------------- | -------- | ------------- | --------------------- | ---------- |
+| **Crear un proyecto en GitHub con README y publicar la página en GitHub Pages** | 15%      | 10%           | 5%                    | 0%         |
+| **Modificar el contenido HTML5**                                                | 50%      | 40%           | 25%                   | 0%         |
+| **Agregar validaciones al formulario utilizando HTML5**                         | 20%      | 15%           | 10%                   | 0%         |
+| **Personalizar estilos utilizando CSS3**                                        | 25%      | 20%           | 15%                   | 0%         |
+
+
+Para superar el módulo, el proyecto debe obtener una calificación final igual o superior al 65%.
+
+El proyecto se realiza de forma individual.
 
 
 
