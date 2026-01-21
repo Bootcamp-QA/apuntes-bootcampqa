@@ -15,7 +15,7 @@
   - Preparación de tareas y configuraciones necesarias para la semana.
   - Tiempo para trabajo práctico en equipo o individual con soporte.
 
-### Preparación semanal
+### Clase en Directo
 
 - Formación de equipos.
 - Creación de un grupo de comunicación por equipo.
@@ -32,7 +32,7 @@
 ### Resolución de dudas
 - Resolución de dudas sobre historias de usuario.
 
-### Preparación semanal
+### Clase en Directo
 - Instalación de AssertThat.
 - Sprint Planning.
 - Inicio del sprint en Jira.
@@ -48,7 +48,7 @@
 ### Resolución de dudas
 - Resolución de dudas sobre diseño de pruebas.
 
-### Preparación semanal
+### Clase en Directo
 - Reparto de tareas en el equipo
 - Creación de una release.
 - Creación del plan de pruebas de regresión (base para la automatización posterior).
@@ -65,7 +65,7 @@
 - Resolución de dudas sobre ejecución de pruebas.
 - Review
 
-### Preparación semanal
+### Clase en Directo
 - Introducción y explicación del proyecto del Módulo 2.
 - Creación de cuenta en GitHub y creación del proyecto durante la clase.
 
@@ -79,7 +79,7 @@
 ### Resolución de dudas
 - Resolución de dudas sobre HTML5.
 
-### Preparación semanal
+### Clase en Directo
 - Explicación de la siguiente fase: validaciones y CSS3.
 
 ### Trabajo individual
@@ -92,7 +92,7 @@
 ### Resolución de dudas
 - Resolución de dudas sobre validaciones y CSS3.
 
-### Preparación semanal
+### Clase en Directo
 - Introducción y explicación del módulo de SQL y API Testing.
 - Explicación del proyecto.
 - Configuración de Supabase.
@@ -110,7 +110,7 @@
 ### Resolución de dudas
 - Resolución de dudas sobre SQL.
 
-### Preparación semanal
+### Clase en Directo
 - Explicación de la parte de API Testing.
 - Configuración de cuenta en Postman.
 - Actualización del README.
@@ -126,7 +126,7 @@
 ### Resolución de dudas
 - Resolución de dudas sobre API Testing.
 
-### Preparación semanal
+### Clase en Directo
 - Configuración de la API en el proyecto HTML.
 - Ejecución de pipelines en GitHub durante la clase.
 
@@ -134,7 +134,7 @@
 
 ## Semana 9 – QA Automation con Python Basico
 
-### Preparación semanal
+### Clase en Directo
 - Introducción al módulo de automatización.
 - Explicación del trabajo en equipo y del trabajo individual.
 - Configuración del proyecto en GitHub.
@@ -148,7 +148,7 @@
 ### Resolución de dudas
 - Resolución en clase de los ejercicios de python basico
 
-### Preparación del trabajo de la semana siguiente
+### Clase en Directo
 - Introducción al módulo de automatización.
 - Explicación del trabajo en equipo y del trabajo individual.
 - Configuración del proyecto en GitHub.
@@ -163,7 +163,7 @@
 ### Resolución de dudas
 - Resolución de ejercicios de python avanzado
 
-### Preparación del trabajo de la semana siguiente
+### Clase en Directo
 - Configuración del proyecto de Playwright por equipos.
 - Puesta en marcha del framework.
 - Reparto de tareas de automatización.
@@ -179,7 +179,7 @@
 ### Resolución de dudas
 - Resolución de dudas sobre playwright basico.
 
-### Preparación del trabajo de la semana siguiente
+### Clase en Directo
 - Explicacion siguiente semana playwright avanzado.
 
 ### Trabajo en equipo o individual
@@ -192,7 +192,7 @@
 ### Resolución de dudas
 - Resolución de dudas de playwright avanzado.
 
-### Preparación del trabajo de la semana siguiente
+### Clase en Directo
 - Explicación de Playwright Mobile.
 - Explicación de Page Object Model (POM).
 - Refactorización conjunta del menú (especialmente para mobile).
@@ -204,9 +204,8 @@
 
 ## Semana 14 – Review y cierre.
 
-### Resolución de dudas y presentaciones
-- Resolución de dudas sobre visual testing y pom
-- Presentación y review final de los proyectos.
+### Resolución de dudas
+- Resolución de dudas.
 
 ### Cierre
 - Despedida y cierre del bootcamp.
