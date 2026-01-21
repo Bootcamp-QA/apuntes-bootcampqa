@@ -6,9 +6,9 @@ Si hay algo de la semana anterior a corregir a la siguiente semana debe entregar
 
 
 
-## Semana 1 - Crear proyecto e historias de usuario en Jira (20%)
+## Semana 1 - Crear proyecto e historias de usuario en Jira
 
-**Objetivo:** Crear un proyecto en Jira con el nombre de la página web y definir historias de usuario para cada funcionalidad siguiendo el formato recomendado, incluyendo criterios de aceptación.
+**Objetivo:** Crear un proyecto SCRUM en Jira con el nombre de la página web y los miembros del equipo. Definir historias de usuario para cada funcionalidad siguiendo el formato recomendado, incluyendo criterios de aceptación.
 
 ### Historias de Usuario con Criterios de Aceptación
 
@@ -74,7 +74,7 @@ Si hay algo de la semana anterior a corregir a la siguiente semana debe entregar
   * Indicaciones si hay errores.
   * Debe ser responsive.
 
-## Semana 2 - Diseño de pruebas (35%)
+## Semana 2 - Diseño de pruebas
 
 **Objetivo:** Diseñar pruebas para cada historia de usuario creada aplicando técnicas de prueba adecuadas.
 * Crear un **Sprint en Jira de 1 semana** con todas las historias de usuario.
@@ -97,3 +97,32 @@ Si hay algo de la semana anterior a corregir a la siguiente semana debe entregar
    * Crear una **release**.
    * Crear y ejecutar un **plan de pruebas de regresión**.
    * Documentar todo el plan de pruebas en **Confluence**.
+
+## CRITERIOS DE EVALUACIÓN
+
+Completo: Todos los requisitos completados.
+
+Casi completo: 2 requisitos incompletos o 1 requisito sin realizar.
+
+Parcialmente completo: Más de 2 requisitos incompletos o más de 1 requisito sin realizar.
+
+Incompleto: no realizado.
+
+| Objetivo de aprendizaje                                                           | Completo | Casi completo | Parcialmente completo | Incompleto |
+| --------------------------------------------------------------------------------- | -------- | ------------- | --------------------- | ---------- |
+| **Configurar un proyecto ágil Scrum en Jira**                                     | 5%       | 4%            | 3%                    | 0%         |
+| **Crear historias de usuario en Jira con criterios de aceptación**                | 15%      | 10%           | 5%                    | 0%         |
+| **Diseñar pruebas en lenguaje Gherkin usando herramientas de gestión de pruebas** | 35%      | 30%           | 20%                   | 0%         |
+| **Ejecutar pruebas en web y móvil y registrar resultados**                        | 20%      | 15%           | 10%                   | 0%         |
+| **Identificar y reportar errores en Jira**                                        | 10%      | 8%            | 5%                    | 0%         |
+| **Crear una release en Jira**                                                     | 5%       | 4%            | 2%                    | 0%         |
+| **Crear y ejecutar un plan de pruebas de regresión**                              | 5%       | 4%            | 2%                    | 0%         |
+| **Documentar un plan de pruebas**                                                 | 5%       | 4%            | 2%                    | 0%         |
+
+Para superar el módulo, el proyecto debe obtener una calificación final igual o superior al 65%.
+
+El proyecto se realiza en equipo de entre 2 y 3 miembros.
+
+Cada integrante es responsable de cumplir sus tareas asignadas.
+
+Si un miembro del equipo no cumple con sus responsabilidades, se le restará un 10% de la nota final, será excluido del equipo y deberá realizar el proyecto completo de forma individual para superar el módulo. 
