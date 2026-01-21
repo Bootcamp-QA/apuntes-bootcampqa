@@ -6,9 +6,9 @@ En este proyecto se automatizarán pruebas de regresión sobre una aplicación w
 Se trabajará con una estructura basada en **Page Object Model**, integración continua con **GitHub Actions** y adaptación de las pruebas para versión móvil.
 
 
-## Semana 11: Creación del Proyecto y Automatización Básica **20%**
+## Entrega 1: Creación del Proyecto y Automatización Básica
 
-### 1. Creación del Proyecto en GitHub **5%**
+### 1. Creación del Proyecto en GitHub
 1. Crear un proyecto en GitHub usando la plantilla:  
    https://github.com/Bootcamp-QA/playwright-python-template
 2. Actualizar el archivo `README.md`:
@@ -16,7 +16,7 @@ Se trabajará con una estructura basada en **Page Object Model**, integración c
    2. URL de la web.
 3. Configurar el entorno básico de Playwright con Python.
 
-### 2. Automatización de Pruebas de Regresión Iniciales **15%**
+### 2. Automatización de Pruebas de Regresión Básicas **15%**
 Automatizar las pruebas de regresión para las siguientes secciones de la web:
 
 1. Menú de navegación.
@@ -25,7 +25,7 @@ Automatizar las pruebas de regresión para las siguientes secciones de la web:
 
 ---
 
-## Semana 12: Automatización de Pruebas Avanzadas y Github Actions **50%**
+## Entrega 2: Automatización de Pruebas Avanzadas y Github Actions
 
 ### 1. Formulario de Contacto **25%**
 
@@ -39,7 +39,7 @@ Automatizar las siguientes pruebas:
 
 ---
 
-### 2. Filtros **20%**
+### 2. Filtros
 
 Automatizar las pruebas de filtros:
 
@@ -50,22 +50,45 @@ Automatizar las pruebas de filtros:
 
 ---
 
-### 3. GitHub Actions  **5%**
+### 3. GitHub Actions 
 1. Revisar el workflow de GitHub Actions.
 2. Ejecutar las pruebas en el entorno de GitHub Actions.
 3. Analizar los errores utilizando trazas, logs o reportes de Playwright.
 4. Corregir los fallos hasta que todas las pruebas pasen correctamente en GitHub Actions.
 
-## Semana 13: Page Object Model y Pruebas en version Movil  **30%**
+## Entrega 3: Page Object Model y Pruebas en version Movil 
 
-### 1. Page Object Model **20%**
+### 1. Page Object Model
 1. Reorganizar el proyecto utilizando el patrón **Page Object Model**.
 2. Crear una carpeta `pages` que contenga las clases de cada página.
 3. Crear una carpeta `tests` que contenga los tests agrupados por funcionalidad.
 4. Los tests deben importar y utilizar las páginas definidas en la carpeta `pages`.
 
-### 1. Adaptación a Versión Móvil **10%**
+### 2. Adaptación a Versión Móvil
 1. Modificar las pruebas necesarias para que funcionen correctamente en versión móvil.
 2. Ajustar selectores, resoluciones y comportamientos específicos de dispositivos móviles.
 3. Actualizar el workflow de GitHub Actions para ejecutar las pruebas en versión movil
+
+# CRITERIOS DE EVALUACIÓN
+
+- Completo: Todos los requisitos completados.
+- Casi completo: 2 requisitos incompletos o 1 requisito sin realizar.
+- Parcialmente completo: Más de 2 requisitos incompletos o más de 1 requisito sin realizar.
+- Incompleto: No realizado.
+
+| Objetivo de aprendizaje                                                             | Completo | Casi completo | Parcialmente completo | Incompleto |
+| ----------------------------------------------------------------------------------- | -------- | ------------- | --------------------- | ---------- |
+| **Crear un proyecto de Playwright con Python en GitHub y actualizar README**        | 5%       | 4%            | 2%                    | 0%         |
+| **Automatizar pruebas de regresión básicas de navegación y páginas informativas**   | 15%      | 10%           | 5%                    | 0%         |
+| **Automatizar pruebas del formulario de contacto (escenarios válidos e inválidos)** | 25%      | 20%           | 15%                   | 0%         |
+| **Automatizar pruebas de filtros (escenarios válidos y no válidos)**                | 20%      | 15%           | 10%                   | 0%         |
+| **Configurar y ejecutar pruebas en GitHub Actions**                                 | 5%       | 4%            | 2%                    | 0%         |
+| **Reorganizar el proyecto utilizando el patrón Page Object Model**                  | 20%      | 15%           | 10%                   | 0%         |
+| **Adaptar las pruebas automatizadas para su ejecución en versión móvil**            | 10%      | 8%            | 5%                    | 0%         |
+
+Para superar el módulo, el proyecto debe obtener una calificación final igual o superior al 65%.
+
+El proyecto se realiza en equipo. Cada integrante es responsable de cumplir sus tareas asignadas.
+
+Si un miembro del equipo no cumple con sus responsabilidades, se le restará un 10% de la nota final, será excluido del equipo y deberá realizar el proyecto completo de forma individual.
 
