@@ -32,10 +32,11 @@ Cada semana habrá **una clase en directo** con la siguiente estructura:
   - Si es en equipo, realiza las tareas asignadas acordadas en equipo.
   
 - **Entrega de trabajo**
-  - Habrá entregas **semanales**. 
-  - Cada semana, las estudiantes recibirán feedback de su entrega, antes de la clase en directo.
-  - Las dudas se resolverán en clase durante la dinámica de resolución de dudas.
-  - El día siguiente a la clase en directo, se debe entregar la parte del proyecto correspondiente.
+  - Habrá entregas **semanales**.
+  - Se realizará la entrega el día siguiente a la clase en directo, antes de las 23:30h
+  - Si hay dudas antes o después de la entrega, se resolverán en clase durante la dinámica de resolución de dudas.
+  - Recibirán feedback cada semana de su entrega, antes de la clase en directo.
+
 
 ---
 
