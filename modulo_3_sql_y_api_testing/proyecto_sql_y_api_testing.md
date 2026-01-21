@@ -11,14 +11,14 @@ Puede hacerse en inglés (recomendado) o español. Importante, todo el proyecto 
 
 ---
 
-## Semana 6: SQL **40%**
+## Entrega 1: SQL 
 
 ### 1. Configuración
 1. Crear un nuevo proyecto en Supabase y realiza las siguientes consultas SQL
 2. En el proyecto portafolio, actualiza el `README.md` e incluye tu enlace al proyecto de Supabase.
 3. Guarda las consultas sql en la carpeta sql de tu proyecto de portfolio.
 
-### 2. Crear Tabla `create.sql`  **5%**
+### 2. Crear Tabla `create.sql`  
 
 1. Crear una tabla con los siguientes campos:
    1. id
@@ -30,7 +30,7 @@ Puede hacerse en inglés (recomendado) o español. Importante, todo el proyecto 
 
 ---
 
-### 3. Insertar Datos `insert.sql` **5%**
+### 3. Insertar Datos `insert.sql` 
 
 Insertar **10 registros de prueba** en la tabla utilizando como referencia los siguientes datos:
 
@@ -49,7 +49,7 @@ Insertar **10 registros de prueba** en la tabla utilizando como referencia los s
 
 ---
 
-### 4. Consultas SQL  **20%**
+### 4. Consultas SQL 
 
 1. Consultar todos los datos.
 2. Filtrar por nombre `ana`.
@@ -64,14 +64,14 @@ Insertar **10 registros de prueba** en la tabla utilizando como referencia los s
 
 ---
 
-### 5. Actualizar Datos `update.sql`  **5%**
+### 5. Actualizar Datos `update.sql` 
 
 1. Cambiar email de laura por `lauratest@gmail.com`.
 2. Cambiar edad 20 por a 21.
 
 ---
 
-### 6. Eliminar Datos `delete.sql`  **5%**
+### 6. Eliminar Datos `delete.sql` 
 
 1. Eliminar todos los registros con edad 30.
 2. Eliminar todos los registros con nombre `pedro`.
@@ -80,9 +80,9 @@ Insertar **10 registros de prueba** en la tabla utilizando como referencia los s
 
 ---
 
-## Semana 7: API Testing  **45%**
+## Entrega 2: API Testing  
 
-### 1. Documentación de la API  **5%**
+### 1. Documentación de la API
 
 1. Generar una API con Supabase.
 2. Crear la documentación de la API.
@@ -91,7 +91,7 @@ Insertar **10 registros de prueba** en la tabla utilizando como referencia los s
 
 ---
 
-### 2. Peticiones GET **10%**
+### 2. Peticiones GET
 
 #### Casos Positivos
 1. GET con nombre válido.
@@ -112,7 +112,7 @@ Agrega test para validar códigos de respuesta.
 
 ---
 
-### 3. Peticiones PATCH (Editar) **10%**
+### 3. Peticiones PATCH (Editar)
 
 Usar siempre el mismo registro identificado por `id`:
 
@@ -132,7 +132,7 @@ Agrega test para validar códigos de respuesta.
 
 ---
 
-### 4. Peticiones POST **10%**
+### 4. Peticiones POST
 
 1. POST con todos los campos obligatorios y opcionales válidos (nombre `apitest`).
 2. POST solo con campos obligatorios, sin nombre ni edad (nombre `apitestoptional`).
@@ -145,7 +145,7 @@ Agrega test para validar códigos de respuesta.
 
 ---
 
-### 5. Peticiones DELETE **10%**
+### 5. Peticiones DELETE
 
 1. DELETE por nombre `apitest`.
 2. DELETE por nombre `apitestoptional`.
@@ -158,16 +158,43 @@ Agrega test para validar códigos de respuesta.
 
 ---
 
-## Semana 8: Integración Continua con GitHub **15%**
+## Semana 8: Integración Continua con GitHub
 
-### 1. Integración con Proyecto HTML  **5%**
+### 1. Integración con Proyecto HTML 
 
 1. Integrar la API con el proyecto HTML.
 2. Modificar el script incluyendo el enlace y la contraseña.
 3. Comprobar que la integración funciona correctamente.
 
-### 2. Ejecución de Postman desde GitHub  **10%**
+### 2. Ejecución de Postman desde GitHub
 
 1. Configurar el proyecto de GitHub para ejecutar automáticamente las colecciones de Postman.
 
 
+# CRITERIOS DE EVALUACIÓN
+
+- Completo: Todos los requisitos completados.
+- Casi completo: 2 requisitos incompletos o 1 requisito sin realizar.
+- Parcialmente completo: Más de 2 requisitos incompletos o más de 1 requisito sin realizar.
+- Incompleto: No realizado.
+
+
+| Objetivo de aprendizaje                                                      | Completo | Casi completo | Parcialmente completo | Incompleto |
+| ---------------------------------------------------------------------------- | -------- | ------------- | --------------------- | ---------- |
+| **Configurar proyecto en Supabase**                                          | 5%       | 4%            | 2%                    | 0%         |
+| **Crear tabla SQL**                                                          | 5%       | 4%            | 2%                    | 0%         |
+| **Insertar datos en SQL**                                                    | 10%      | 8%            | 5%                    | 0%         |
+| **Crear consultas SQL**                                                      | 15%      | 10%           | 5%                    | 0%         |
+| **Actualizar y eliminar datos en SQL**                                       | 5%       | 4%            | 2%                    | 0%         |
+| **Generar API y documentación de la API en Supabase**                        | 5%       | 4%            | 2%                    | 0%         |
+| **Pruebas de peticiones API GET con Postman (tests y variables)**            | 10%      | 8%            | 5%                    | 0%         |
+| **Pruebas de peticiones API PATCH con Postman (tests y variables)**          | 10%      | 8%            | 5%                    | 0%         |
+| **Pruebas de peticiones API POST con Postman (tests y variables)**           | 10%      | 8%            | 5%                    | 0%         |
+| **Pruebas de peticiones API DELETE con Postman (tests y variables)**         | 10%      | 8%            | 5%                    | 0%         |
+| **Integrar la API en un proyecto web**                                       | 5%       | 4%            | 2%                    | 0%         |
+| **Configurar CI con GitHub Actions para ejecutar pruebas de API con Newman** | 10%      | 8%            | 5%                    | 0%         |
+
+
+Para superar el módulo, el proyecto debe obtener una calificación final igual o superior al 65%.
+
+El proyecto se realiza de forma individual.
