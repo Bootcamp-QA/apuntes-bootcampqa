@@ -12,14 +12,14 @@ Se recomienda realizarlo **en inglés** si se tiene conocimiento del idioma, ya 
 
 ## Entrega 1: Crear Proyecto en GitHub y Modificar su Contenido
 
-### Creación y Publicación 15%
+### Objetivo 1: Crear un proyecto en GitHub con README y publicar página en GitHub Pages
 - Crear el repositorio del portafolio en GitHub usando una plantilla. 
 - Publicar el proyecto en GitHub Pages. 
 - Actualizar el `README.md` con:
   - URL del sitio publicado.
   - Enlace al perfil de LinkedIn.
 
-### Modificación contenido con HTML5 50%
+### Objetivo 2: Modificar el contenido HTML5
 - Cabecera: nombre, título profesional y enlaces a LinkedIn y GitHub. 
 - About Me: descripción personal y profesional. 
 - Proyectos: enlaces y título de proyectos de QA. 
@@ -29,13 +29,13 @@ Se recomienda realizarlo **en inglés** si se tiene conocimiento del idioma, ya 
 
 ## Entrega 2: Personalización del Portafolio
 
-### Validaciones del Formulario con HTML5 **(20%)**
+### Objetivo 3: Agregar validaciones al formulario utilizando HTML5
 - Nombre: opcional.
 - Email: obligatorio.
 - Asunto: obligatorio.
 - Mensaje: obligatorio, máximo 500 caracteres.
 
-### Personalización de estilos con CSS3 **(25%)**
+### Objetivo 4: Personalizar estilos utilizando CSS3 
 - Cambio de colores de fondo, de letras y enlaces.
 - Cambio de tipo o tamaño de letra.
 - Cambiar márgenes o alineación.
@@ -49,10 +49,10 @@ Se recomienda realizarlo **en inglés** si se tiene conocimiento del idioma, ya 
 
 | Objetivo de aprendizaje                                                         | Completo | Casi completo | Parcialmente completo | Incompleto |
 | ------------------------------------------------------------------------------- | -------- | ------------- | --------------------- | ---------- |
-| **Crear un proyecto en GitHub con README y publicar la página en GitHub Pages** | 15%      | 10%           | 5%                    | 0%         |
-| **Modificar el contenido HTML5**                                                | 50%      | 40%           | 25%                   | 0%         |
-| **Agregar validaciones al formulario utilizando HTML5**                         | 20%      | 15%           | 10%                   | 0%         |
-| **Personalizar estilos utilizando CSS3**                                        | 25%      | 20%           | 15%                   | 0%         |
+| **1. Crear un proyecto en GitHub con README y publicar página en GitHub Pages** | 15%      | 10%           | 5%                    | 0%         |
+| **2. Modificar el contenido HTML5**                                                | 50%      | 40%           | 25%                   | 0%         |
+| **3. Agregar validaciones al formulario utilizando HTML5**                         | 20%      | 15%           | 10%                   | 0%         |
+| **4. Personalizar estilos utilizando CSS3**                                        | 25%      | 20%           | 15%                   | 0%         |
 
 
 Para superar el módulo, el proyecto debe obtener una calificación final igual o superior al 65%.
