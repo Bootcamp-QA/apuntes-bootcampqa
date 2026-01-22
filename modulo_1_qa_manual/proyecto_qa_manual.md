@@ -6,7 +6,7 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
 
 
 
-## Semana 1 - Crear proyecto e historias de usuario en Jira
+## Entrega 1 - Crear proyecto e historias de usuario en Jira
 
 
 **Objetivo**: Crear proyecto de equipo SCRUM en JIRA
@@ -80,7 +80,7 @@ Requisitos:
   * Indicaciones si hay errores.
   * Debe ser responsive.
 
-## Semana 2 - Diseño de pruebas
+## Entrega 2 - Diseño de pruebas
 **Objetivo:** Diseñar pruebas para cada historia de usuario creada aplicando técnicas de prueba adecuadas.
 Requisitos:
 1. Crear un sprint en JIRA de una semana con todas las historias de usuario, en la columna to do.
@@ -88,7 +88,7 @@ Requisitos:
 3. Para todas las historias de usuario, crear sus casos de prueba en lenguaje gherkin usando las técnicas de pruebas. Una vez creadas, pasar la tarea a QA.
 
 
-## Semana 3 - Ejecución de pruebas, reporte de errores y generación de reportes (45%)
+## Entrega 3 - Ejecución de pruebas, reporte de errores y generación de reportes (45%)
 
 **Objetivo:** Ejecutar pruebas en web y móvil y registrar resultados en JIRA
 
