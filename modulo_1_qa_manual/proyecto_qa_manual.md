@@ -1,5 +1,5 @@
 # Proyecto QA Manual
-El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una página web tanto en escritorio como en movil en base a los siguientes requisitos. Utilizando JIRA, Herramientas de gestión de pruebas y metodologías ágiles scrum.
+El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una página web tanto en escritorio como en movil en base a los siguientes . Utilizando JIRA, Herramientas de gestión de pruebas y metodologías ágiles scrum.
 - El proyecto se realiza en equipo. 
 - Debe entregarse cada semana la parte correspondiente.
 
@@ -10,7 +10,6 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
 
 
 **Objetivo**: Crear proyecto de equipo SCRUM en JIRA
-Requisitos:
 1. Crea una cuenta en JIRA
 2. Crea un proyecto SCRUM en JIRA con nombre de la web a probar, miembros del equipo, y tablero scrum con columnas to do, in progress, qa y done.
 
@@ -82,7 +81,7 @@ Requisitos:
 
 ## Entrega 2 - Diseño de pruebas
 **Objetivo:** Diseñar pruebas para cada historia de usuario creada aplicando técnicas de prueba adecuadas.
-Requisitos:
+:
 1. Crear un sprint en JIRA de una semana con todas las historias de usuario, en la columna to do.
 2. Configurar herramienta de gestión de pruebas Asserthat en el proyecto de JIRA
 3. Para todas las historias de usuario, crear sus casos de prueba en lenguaje gherkin usando las técnicas de pruebas. Una vez creadas, pasar la tarea a QA.
@@ -92,40 +91,40 @@ Requisitos:
 
 **Objetivo:** Ejecutar pruebas en web y móvil y registrar resultados en JIRA
 
-Requisitos:
+:
 
 1. Ejecutar las pruebas de cada historia de usuario en web y móvil
 2. Registrar los resultados de las pruebas en JIRA pass/failed
 3. Pasar a done las historias de usuario una vez finalizadas las pruebas.
   
 **Objetivo:** Identificar y reportar errores en Jira
-Requisitos:
+:
 1. Si alguna prueba de una historia de usuario falla, crear un ticket de error asociado a la historia de usuario
 2. Incluir todos los detalles en el ticket de error: pasos para reproducir, resultado actual con captura, resultado esperado, navegador y resolución.
    
 **Objetivo:** Crear una release en Jira
-Requisitos:
+:
 1. Crear una release en JIRA
 2. Incluir en la release todas las historias de usuario con estado done.
 
 
 **Objetivo: Crear un plan de pruebas de regresión**
-Requisitos:
+:
 1. Identificar los casos de prueba críticos y agregar la etiqueta regresion.
 2. Crear una tarea con todas las pruebas marcadas como regresión (será referencia para su posterior automatización).
 
  **Objetivo: Documentar un plan de pruebas**  
- Requisitos:
+ :
  1. Crear una nueva página en Confluence de Plan de Pruebas con la plantilla propuesta
  2. Modificar la plantilla incluyendo todos los datos de historias de usuario probadas, resultados de pruebas y errores.
 
 ## CRITERIOS DE EVALUACIÓN
 
-Completo: Todos los requisitos completados.
+Completo: Todos los  completados.
 
-Casi completo: 2 requisitos incompletos o 1 requisito sin realizar.
+Casi completo: 2  incompletos o 1 requisito sin realizar.
 
-Parcialmente completo: Más de 2 requisitos incompletos o más de 1 requisito sin realizar.
+Parcialmente completo: Más de 2  incompletos o más de 1 requisito sin realizar.
 
 Incompleto: no realizado.
 
