@@ -81,7 +81,6 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
 
 ## Entrega 2 - Diseño de pruebas
 **Objetivo:** Diseñar pruebas para cada historia de usuario creada aplicando técnicas de prueba adecuadas.
-:
 1. Crear un sprint en JIRA de una semana con todas las historias de usuario, en la columna to do.
 2. Configurar herramienta de gestión de pruebas Asserthat en el proyecto de JIRA
 3. Para todas las historias de usuario, crear sus casos de prueba en lenguaje gherkin usando las técnicas de pruebas. Una vez creadas, pasar la tarea a QA.
@@ -90,20 +89,15 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
 ## Entrega 3 - Ejecución de pruebas, reporte de errores y generación de reportes (45%)
 
 **Objetivo:** Ejecutar pruebas en web y móvil y registrar resultados en JIRA
-
-:
-
 1. Ejecutar las pruebas de cada historia de usuario en web y móvil
 2. Registrar los resultados de las pruebas en JIRA pass/failed
 3. Pasar a done las historias de usuario una vez finalizadas las pruebas.
   
 **Objetivo:** Identificar y reportar errores en Jira
-:
 1. Si alguna prueba de una historia de usuario falla, crear un ticket de error asociado a la historia de usuario
 2. Incluir todos los detalles en el ticket de error: pasos para reproducir, resultado actual con captura, resultado esperado, navegador y resolución.
    
 **Objetivo:** Crear una release en Jira
-:
 1. Crear una release en JIRA
 2. Incluir en la release todas las historias de usuario con estado done.
 
