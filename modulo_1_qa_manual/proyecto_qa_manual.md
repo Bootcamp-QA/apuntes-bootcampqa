@@ -1,14 +1,20 @@
 # Proyecto QA Manual
 El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una página web tanto en escritorio como en movil en base a los siguientes requisitos. Utilizando JIRA, Herramientas de gestión de pruebas y metodologías ágiles scrum.
-El proyecto se realiza en equipo. 
-Debe entregarse cada semana la parte correspondiente.
-Si hay algo de la semana anterior a corregir a la siguiente semana debe entregarse esa parte corregida mas la que corresponda.
+- El proyecto se realiza en equipo. 
+- Debe entregarse cada semana la parte correspondiente.
+
 
 
 
 ## Semana 1 - Crear proyecto e historias de usuario en Jira
 
-**Objetivo:** Crear un proyecto SCRUM en Jira con el nombre de la página web y los miembros del equipo. Definir historias de usuario para cada funcionalidad siguiendo el formato recomendado, incluyendo criterios de aceptación.
+
+**Objetivo**: Crear proyecto de equipo SCRUM en JIRA
+Requisitos:
+1. Crea una cuenta en JIRA
+2. Crea un proyecto SCRUM en JIRA con nombre de la web a probar, miembros del equipo, y tablero scrum con columnas to do, in progress, qa y done.
+
+**Objetivo**: Crear las siguientes historias de usuario en JIRA con criterios de aceptación. Puedes hacerlo en inglés o en español.
 
 ### Historias de Usuario con Criterios de Aceptación
 
@@ -75,28 +81,43 @@ Si hay algo de la semana anterior a corregir a la siguiente semana debe entregar
   * Debe ser responsive.
 
 ## Semana 2 - Diseño de pruebas
-
 **Objetivo:** Diseñar pruebas para cada historia de usuario creada aplicando técnicas de prueba adecuadas.
-* Crear un **Sprint en Jira de 1 semana** con todas las historias de usuario.
+Requisitos:
+1. Crear un sprint en JIRA de una semana con todas las historias de usuario, en la columna to do.
+2. Configurar herramienta de gestión de pruebas Asserthat en el proyecto de JIRA
+3. Para todas las historias de usuario, crear sus casos de prueba en lenguaje gherkin usando las técnicas de pruebas. Una vez creadas, pasar la tarea a QA.
 
-* Definir los casos de prueba en Jira usando la herramienta de gestión de pruebas y el lenguaje Gherkin para todas las historias de usuario. Una vez estén creadas las pruebas, pasar a estado QA.
 
 ## Semana 3 - Ejecución de pruebas, reporte de errores y generación de reportes (45%)
 
-**Objetivo:** Ejecutar las pruebas y generar reportes completos del sprint.
+**Objetivo:** Ejecutar pruebas en web y móvil y registrar resultados en JIRA
 
+Requisitos:
 
-2. Ejecutar las pruebas de cada historia de usuario:
-
-   * En web y móvil.
-   * Reportar los errores encontrados.
-   * Cerrar las historias de usuario una vez finalizadas las pruebas.
+1. Ejecutar las pruebas de cada historia de usuario en web y móvil
+2. Registrar los resultados de las pruebas en JIRA pass/failed
+3. Pasar a done las historias de usuario una vez finalizadas las pruebas.
+  
+**Objetivo:** Identificar y reportar errores en Jira
+Requisitos:
+1. Si alguna prueba de una historia de usuario falla, crear un ticket de error asociado a la historia de usuario
+2. Incluir todos los detalles en el ticket de error: pasos para reproducir, resultado actual con captura, resultado esperado, navegador y resolución.
    
-3. Al finalizar el sprint:
+**Objetivo:** Crear una release en Jira
+Requisitos:
+1. Crear una release en JIRA
+2. Incluir en la release todas las historias de usuario con estado done.
 
-   * Crear una **release**.
-   * Crear y ejecutar un **plan de pruebas de regresión**.
-   * Documentar todo el plan de pruebas en **Confluence**.
+
+**Objetivo: Crear un plan de pruebas de regresión**
+Requisitos:
+1. Identificar los casos de prueba críticos y agregar la etiqueta regresion.
+2. Crear una tarea con todas las pruebas marcadas como regresión (será referencia para su posterior automatización).
+
+ **Objetivo: Documentar un plan de pruebas**  
+ Requisitos:
+ 1. Crear una nueva página en Confluence de Plan de Pruebas con la plantilla propuesta
+ 2. Modificar la plantilla incluyendo todos los datos de historias de usuario probadas, resultados de pruebas y errores.
 
 ## CRITERIOS DE EVALUACIÓN
 
@@ -110,13 +131,13 @@ Incompleto: no realizado.
 
 | Objetivo de aprendizaje                                                           | Completo | Casi completo | Parcialmente completo | Incompleto |
 | --------------------------------------------------------------------------------- | -------- | ------------- | --------------------- | ---------- |
-| **Configurar un proyecto ágil Scrum en Jira**                                     | 5%       | 4%            | 3%                    | 0%         |
-| **Crear historias de usuario en Jira con criterios de aceptación**                | 15%      | 10%           | 5%                    | 0%         |
-| **Diseñar pruebas en lenguaje Gherkin usando herramientas de gestión de pruebas** | 35%      | 30%           | 20%                   | 0%         |
+| **1.Configurar un proyecto ágil Scrum en Jira**                                   | 5%       | 4%            | 3%                    | 0%         |
+| **2.Crear historias de usuario en Jira con criterios de aceptación**              | 15%      | 10%           | 5%                    | 0%         |
+| **3. Diseñar pruebas en lenguaje Gherkin usando herramientas de gestión de pruebas**| 35%      | 30%           | 20%                   | 0%         |
 | **Ejecutar pruebas en web y móvil y registrar resultados**                        | 20%      | 15%           | 10%                   | 0%         |
 | **Identificar y reportar errores en Jira**                                        | 10%      | 8%            | 5%                    | 0%         |
 | **Crear una release en Jira**                                                     | 5%       | 4%            | 2%                    | 0%         |
-| **Crear y ejecutar un plan de pruebas de regresión**                              | 5%       | 4%            | 2%                    | 0%         |
+| **Crear un plan de pruebas de regresión**                                         | 5%       | 4%            | 2%                    | 0%         |
 | **Documentar un plan de pruebas**                                                 | 5%       | 4%            | 2%                    | 0%         |
 
 Para superar el módulo, el proyecto debe obtener una calificación final igual o superior al 65%.
