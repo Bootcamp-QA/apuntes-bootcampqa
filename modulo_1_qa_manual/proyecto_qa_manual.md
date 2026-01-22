@@ -9,11 +9,11 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
 ## Entrega 1 - Crear proyecto e historias de usuario en Jira
 
 
-**Objetivo**: Crear proyecto de equipo SCRUM en JIRA
+**Objetivo 1**: Crear proyecto de equipo SCRUM en JIRA
 1. Crea una cuenta en JIRA
 2. Crea un proyecto SCRUM en JIRA con nombre de la web a probar, miembros del equipo, y tablero scrum con columnas to do, in progress, qa y done.
 
-**Objetivo**: Crear las siguientes historias de usuario en JIRA con criterios de aceptación. Puedes hacerlo en inglés o en español.
+**Objetivo 2**: Crear las siguientes historias de usuario en JIRA con criterios de aceptación. Puedes hacerlo en inglés o en español.
 
 ### Historias de Usuario con Criterios de Aceptación
 
@@ -80,7 +80,7 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
   * Debe ser responsive.
 
 ## Entrega 2 - Diseño de pruebas
-**Objetivo:** Diseñar pruebas para cada historia de usuario creada aplicando técnicas de prueba adecuadas.
+**Objetivo 3:** Diseñar pruebas para cada historia de usuario creada aplicando técnicas de prueba adecuadas.
 1. Crear un sprint en JIRA de una semana con todas las historias de usuario, en la columna to do.
 2. Configurar herramienta de gestión de pruebas Asserthat en el proyecto de JIRA
 3. Para todas las historias de usuario, crear sus casos de prueba en lenguaje gherkin usando las técnicas de pruebas. Una vez creadas, pasar la tarea a QA.
@@ -88,27 +88,26 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
 
 ## Entrega 3 - Ejecución de pruebas, reporte de errores y generación de reportes (45%)
 
-**Objetivo:** Ejecutar pruebas en web y móvil y registrar resultados en JIRA
+**Objetivo 4:** Ejecutar pruebas en web y móvil y registrar resultados en JIRA
 1. Ejecutar las pruebas de cada historia de usuario en web y móvil
 2. Registrar los resultados de las pruebas en JIRA pass/failed
 3. Pasar a done las historias de usuario una vez finalizadas las pruebas.
   
-**Objetivo:** Identificar y reportar errores en Jira
+**Objetivo 5:** Identificar y reportar errores en Jira
 1. Si alguna prueba de una historia de usuario falla, crear un ticket de error asociado a la historia de usuario
 2. Incluir todos los detalles en el ticket de error: pasos para reproducir, resultado actual con captura, resultado esperado, navegador y resolución.
    
-**Objetivo:** Crear una release en Jira
+**Objetivo 6:** Crear una release en Jira
 1. Crear una release en JIRA
 2. Incluir en la release todas las historias de usuario con estado done.
 
 
-**Objetivo: Crear un plan de pruebas de regresión**
+**Objetivo 7: Crear un plan de pruebas de regresión**
 :
 1. Identificar los casos de prueba críticos y agregar la etiqueta regresion.
 2. Crear una tarea con todas las pruebas marcadas como regresión (será referencia para su posterior automatización).
 
- **Objetivo: Documentar un plan de pruebas**  
- :
+ **Objetivo 8: Documentar un plan de pruebas**  
  1. Crear una nueva página en Confluence de Plan de Pruebas con la plantilla propuesta
  2. Modificar la plantilla incluyendo todos los datos de historias de usuario probadas, resultados de pruebas y errores.
 
@@ -127,11 +126,11 @@ Incompleto: no realizado.
 | **1.Configurar un proyecto ágil Scrum en Jira**                                   | 5%       | 4%            | 3%                    | 0%         |
 | **2.Crear historias de usuario en Jira con criterios de aceptación**              | 15%      | 10%           | 5%                    | 0%         |
 | **3. Diseñar pruebas en lenguaje Gherkin usando herramientas de gestión de pruebas**| 35%      | 30%           | 20%                   | 0%         |
-| **Ejecutar pruebas en web y móvil y registrar resultados**                        | 20%      | 15%           | 10%                   | 0%         |
-| **Identificar y reportar errores en Jira**                                        | 10%      | 8%            | 5%                    | 0%         |
-| **Crear una release en Jira**                                                     | 5%       | 4%            | 2%                    | 0%         |
-| **Crear un plan de pruebas de regresión**                                         | 5%       | 4%            | 2%                    | 0%         |
-| **Documentar un plan de pruebas**                                                 | 5%       | 4%            | 2%                    | 0%         |
+| **4.Ejecutar pruebas en web y móvil y registrar resultados**                        | 20%      | 15%           | 10%                   | 0%         |
+| **5.Identificar y reportar errores en Jira**                                        | 10%      | 8%            | 5%                    | 0%         |
+| **6.Crear una release en Jira**                                                     | 5%       | 4%            | 2%                    | 0%         |
+| **7.Crear un plan de pruebas de regresión**                                         | 5%       | 4%            | 2%                    | 0%         |
+| **8.Documentar un plan de pruebas**                                                 | 5%       | 4%            | 2%                    | 0%         |
 
 Para superar el módulo, el proyecto debe obtener una calificación final igual o superior al 65%.
 
