@@ -41,8 +41,11 @@ print(f"La URL actual es: {current _url}")
 El método `page.title()` devuelve el título de la página actual. Es útil para validar que se ha cargado la página correcta y para verificar el contenido de la pestaña del navegador.
 
  # Obtener el título de la página
+
+ ```
 page _title = page.title()
 print(f"El título de la página es: {page _title}")
+ ```
     
 
 El título suele ser un buen indicador para confirmar que la página cargada es la esperada.
@@ -52,8 +55,9 @@ El título suele ser un buen indicador para confirmar que la página cargada es 
 El método `wait_for_load_state()` asegura que la página esté completamente cargada antes de continuar. Esto reduce errores por intentar interactuar con elementos que aún no están disponibles.
 
  # Esperar hasta que la página esté completamente cargada
+  ```
  page.wait _for _load _state("load")
-    
+  ```
 
 Usa esta función cuando necesites estar seguro de que todos los recursos (como imágenes y scripts) se han cargado antes de proceder.
 
@@ -65,48 +69,48 @@ Playwright ofrece una variedad de localizadores para interactuar con elementos e
 ### 1 . Por Rol (Recomendado para accesibilidad)
 
 Utiliza `get_by_role()` para localizar elementos basados en su rol. Este enfoque es ideal para pruebas accesibles y es menos propenso a fallos debido a cambios en el diseño de la página.
-
+ ```
 locator = page.get _by _role("button", name="Enviar")
-    
+  ```   
 
 ### 2 . Por Texto
 
 Utiliza `get_by_text()` para localizar elementos basados en su contenido de texto. Es útil cuando el texto es estable y no cambia frecuentemente.
-
+ ```
 locator = page.get _by _text("Iniciar sesión")
-    
+ ```    
 
 ### 3 . Por Etiqueta Asociada (Label)
 
 Utiliza `get_by_label()` para localizar controles de formulario asociados a un texto de etiqueta. Esto facilita la interacción con formularios y mejora la legibilidad del código.
-
+ ```
 locator = page.get _by _label("Correo Electrónico")
-    
+ ```    
 
 ### 4 . Por Placeholder
 
 Utiliza `get_by_placeholder()` para localizar un campo de entrada basado en el texto de sugerencia (placeholder). Es útil para identificar campos de texto que tienen un placeholder único.
-
+ ```
 locator = page.get _by _placeholder("Introduce tu correo")
-    
+ ```    
 
 ### 5 . Por Texto Alternativo (Alt Text)
 
 Utiliza `get_by_alt_text()` para localizar elementos, generalmente imágenes, basados en su texto alternativo. Es útil para verificar imágenes o elementos gráficos en la página.
-
+ ```
 locator = page.get _by _alt _text("Logo de la empresa")
-    
+ ```    
 
 ### 6 . Por Atributo de Título
 
 Utiliza `get_by_title()` para localizar elementos basados en su atributo de título. Es útil cuando el elemento tiene un atributo `title` claro y único.
-
+ ```
 locator = page.get _by _title("Cerrar ventana")
-    
+  ```   
 
 ### 7 . Por `data-testid` (Para pruebas específicas)
 
 Utiliza `get_by_test_id()` para localizar elementos basados en el atributo `data-testid`. Esto es útil cuando se controlan los atributos de prueba en el código de la aplicación.
-
+ ```
 locator = page.get _by _test _id("submit-button")
-    
+   ```  
