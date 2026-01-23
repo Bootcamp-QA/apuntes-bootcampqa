@@ -1,5 +1,7 @@
-#Introducción a Playwright
-==========================
+# Introducción a Playwright
+
+[Ver clase: Playwright Configuración Inicial - 15 min](https://bootcampqa.com/videosauto/configurarproyectoplaywright.mp4)
+
 
 Para más detalles y ejemplos, consulta la [documentación oficial de Playwright para Python](https://playwright.dev/python/docs/intro).
 
