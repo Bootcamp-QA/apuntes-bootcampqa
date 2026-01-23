@@ -1,5 +1,7 @@
 # Estrategia de Automatización de Pruebas
 
+[Ver clase: Estrategia de Automatización de Pruebas - 30 min](https://bootcampqa.com/videosauto/estrategiadepruebas.mp4)
+
 ## 1. La importancia de la automatización de pruebas
 
 La automatización de pruebas aporta numerosos benificios:
