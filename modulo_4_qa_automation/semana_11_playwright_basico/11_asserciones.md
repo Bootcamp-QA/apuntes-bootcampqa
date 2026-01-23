@@ -1,6 +1,7 @@
 Aserciones Playwright
 ------------------
 [Ver clase: Playwright - Asserciones - 20min](https://bootcampqa.com/videosauto/pwasserciones.mp4)
+
 Las aserciones son fundamentales para validar los resultados de las pruebas, te permite comprobar que los elementos que aparecen en la pagina son los esperados, puedes validar textos, urls, si estan o no visibles botones, imagenes o el numero de elementos mostrados entre muchas otras opciones. 
 
 Puedes consultar la lista completa de aserciones en la documentación oficial de playwright: https://playwright.dev/python/docs/test-assertions
