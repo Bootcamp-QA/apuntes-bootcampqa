@@ -3,7 +3,7 @@
 ## Descripción del Proyecto
 
 En este proyecto se trabajará con **SQL y API Testing** utilizando **Supabase**, **GitHub** y **Postman**.  
-El objetivo es crear una base de datos, ejecutar consultas SQL y realizar pruebas completas sobre una API REST.
+El objetivo es crear una base de datos para almacenar los datos del formulario de tu portafolio, ejecutar consultas SQL y realizar pruebas completas sobre una API REST.
 
 Es **muy importante respetar exactamente el nombre de los campos** definidos en la base de datos y en la API, ya que cualquier cambio en los nombres puede provocar errores en las consultas y peticiones.
 
@@ -13,27 +13,29 @@ Puede hacerse en inglés (recomendado) o español. Importante, todo el proyecto 
 
 ## Entrega 1: SQL 
 
-### 1. Configuración
-1. Crear un nuevo proyecto en Supabase y realiza las siguientes consultas SQL
-2. En el proyecto portafolio, actualiza el `README.md` e incluye tu enlace al proyecto de Supabase.
-3. Guarda las consultas sql en la carpeta sql de tu proyecto de portfolio.
+### Objetivo 1: Configurar proyecto Base de Datos en Supabase
+1. Crear un nuevo proyecto en Supabase
+2. En tu proyecto portafolio, actualiza el `README.md` e incluye tu enlace al proyecto de Supabase.
+3. Comparte el proyecto supabase con mybootcampqa@gmail.com para su corrección.
 
-### 2. Crear Tabla `create.sql`  
 
-1. Crear una tabla con los siguientes campos:
+### Objetivo 2: Crear Tabla SQL
+
+1. Crear en supabase una tabla con los siguientes campos y agrega a la carpeta sql un archivo create.sql con la query en tu proyecto de github.
    1. id autoincremento
    2. name (opcional)
    3. email (obligatorio)
    4. subject (obligatorio)
    5. age (numérico, opcional, mayor que 18)
    6. message (obligatorio, máximo 500 caracteres)
+  
 
 ---
 
-### 3. Insertar Datos `insert.sql` 
+### Objetivo 3: Insertar Datos SQL
 
-Insertar **10 registros de prueba** en la tabla utilizando como referencia los siguientes datos:
-
+1. Insertar los siguientes **10 registros de prueba** en la tabla y agrega a la carpeta sql de tu proyecto de github un archivo insert.sql con las consultas.
+   
 | name   | email              | age   | subject       | message              |
 |--------|--------------------|-------|---------------|----------------------|
 | ana    | ana@gmail.com      | vacío | information   | hola testing         |
@@ -49,8 +51,9 @@ Insertar **10 registros de prueba** en la tabla utilizando como referencia los s
 
 ---
 
-### 4. Consultas SQL 
+### Objetivo 4. Consultas SQL 
 
+1. Realiza las siguientes consultas SQL,y agrega a la carpeta sql de tu proyecto de github un archivo select.sql con las consultas.
 1. Consultar todos los datos.
 2. Filtrar por nombre `ana`.
 3. Filtrar por nombre vacío.
@@ -62,19 +65,18 @@ Insertar **10 registros de prueba** en la tabla utilizando como referencia los s
 9. Filtrar por edad mayor a 30 y mensaje que contenga `test`.
 10. Mostrar los datos ordenados por email de la A a la Z.
 
+
+
 ---
 
-### 5. Actualizar Datos `update.sql` 
+### Objetivo 5:Actualizar y eliminar datos en SQL
+
+Realiza las siguientes consultas SQL, y agrega a la carpeta sql de tu proyecto de github un archivo update.sql con las consultas.
 
 1. Cambiar email de laura por `lauratest@gmail.com`.
 2. Cambiar edad 20 por a 21.
-
----
-
-### 6. Eliminar Datos `delete.sql` 
-
-1. Eliminar todos los registros con edad 30.
-2. Eliminar todos los registros con nombre `pedro`.
+3. Eliminar todos los registros con edad 30.
+4. Eliminar todos los registros con nombre `pedro`.
 
 
 
@@ -82,38 +84,36 @@ Insertar **10 registros de prueba** en la tabla utilizando como referencia los s
 
 ## Entrega 2: API Testing  
 
-### 1. Documentación de la API
-
-1. Generar una API con Supabase.
-2. Crear la documentación de la API.
-3. Crear una carpeta llamada `api testing` y agregar la documentación.
+### Objetivo 6: Generar API y su Documentación:
+1. Generar una API con Supabase a partir de la base de datos creada.
+2. Genera la documentación de la API y agregala a tu proyecto de github.
+3. Crea una cuenta y una colección en postman para probar la API.
 4. Actualizar el `README.md` con el enlace al proyecto de Postman.
+5. Comparte el proyecto postman con mybootcampqa@gmail.com para su corrección.
 
 ---
 
-### 2. Peticiones GET
+### Objetivo 7: Peticiones GET
 
 #### Casos Positivos
+Crea las peticiones y agrega test para validar códigos de respuesta y contenido de respuesta. Usa variables.
 1. GET con nombre válido.
 2. GET con asunto válido.
 3. GET con edad válida.
 4. GET con email válido.
 
-Agrega test para validar códigos de respuesta y contenido de respuesta.
-
 #### Casos Negativos
+Crea las peticiones y agrega test para validar códigos de respuesta. Usa variables.
 5. GET sin autenticación.
 6. GET con nombre que no exista.
 7. GET con asunto que no exista.
 8. GET con edad inválida.
 9. GET con email que no exista.
 
-Agrega test para validar códigos de respuesta.
-
 ---
 
-### 3. Peticiones PATCH (Editar)
-
+### Objetivo 8: Peticiones PATCH (Editar)
+Crea las peticiones y agrega test para validar códigos de respuesta. Usa variables.
 Usar siempre el mismo registro identificado por `id`:
 
 1. PATCH editar nombre válido.
@@ -128,12 +128,12 @@ Usar siempre el mismo registro identificado por `id`:
 10. PATCH editar edad inválida (menor a 18).
 11. PATCH restaurar todos los valores originales (nombre, asunto, edad, email).
 
-Agrega test para validar códigos de respuesta.
+
 
 ---
 
-### 4. Peticiones POST
-
+### Objetivo 9: Peticiones POST
+Crea las peticiones y agrega test para validar códigos de respuesta. Usa variables.
 1. POST con todos los campos obligatorios y opcionales válidos (nombre `apitest`).
 2. POST solo con campos obligatorios, sin nombre ni edad (nombre `apitestoptional`).
 3. POST sin autenticación.
@@ -141,12 +141,12 @@ Agrega test para validar códigos de respuesta.
 5. POST sin campo obligatorio asunto.
 6. POST sin campo obligatorio mensaje.
 
-Agrega test para validar códigos de respuesta.
 
 ---
 
-### 5. Peticiones DELETE
-
+### Objetivo 10: Peticiones DELETE
+Crea las peticiones y agrega test para validar códigos de respuesta. Usa variables.
+Usa para borrar los nombres que usaste para crear en POST. Es decir, si creaste un nombre apitest en delete borra por nombre apitest.
 1. DELETE por nombre `apitest`.
 2. DELETE por nombre `apitestoptional`.
 3. DELETE sin autenticación.
@@ -160,13 +160,13 @@ Agrega test para validar códigos de respuesta.
 
 ## Semana 8: Integración Continua con GitHub
 
-### 1. Integración con Proyecto HTML 
+### Objetivo 11: Integración con Proyecto Web 
 
 1. Integrar la API con el proyecto HTML.
 2. Modificar el script incluyendo el enlace y la contraseña.
 3. Comprobar que la integración funciona correctamente.
 
-### 2. Ejecución de Postman desde GitHub
+### Objetivo 12: Ejecución de Postman desde GitHub
 
 1. Configurar el proyecto de GitHub para ejecutar automáticamente las colecciones de Postman.
 
@@ -181,18 +181,18 @@ Agrega test para validar códigos de respuesta.
 
 | Objetivo de aprendizaje                                                      | Completo | Casi completo | Parcialmente completo | Incompleto |
 | ---------------------------------------------------------------------------- | -------- | ------------- | --------------------- | ---------- |
-| **Configurar proyecto en Supabase**                                          | 5%       | 4%            | 2%                    | 0%         |
-| **Crear tabla SQL**                                                          | 5%       | 4%            | 2%                    | 0%         |
-| **Insertar datos en SQL**                                                    | 10%      | 8%            | 5%                    | 0%         |
-| **Crear consultas SQL**                                                      | 15%      | 10%           | 5%                    | 0%         |
-| **Actualizar y eliminar datos en SQL**                                       | 5%       | 4%            | 2%                    | 0%         |
-| **Generar API y documentación de la API en Supabase**                        | 5%       | 4%            | 2%                    | 0%         |
-| **Pruebas de peticiones API GET con Postman (tests y variables)**            | 10%      | 8%            | 5%                    | 0%         |
-| **Pruebas de peticiones API PATCH con Postman (tests y variables)**          | 10%      | 8%            | 5%                    | 0%         |
-| **Pruebas de peticiones API POST con Postman (tests y variables)**           | 10%      | 8%            | 5%                    | 0%         |
-| **Pruebas de peticiones API DELETE con Postman (tests y variables)**         | 10%      | 8%            | 5%                    | 0%         |
-| **Integrar la API en un proyecto web**                                       | 5%       | 4%            | 2%                    | 0%         |
-| **Configurar CI con GitHub Actions para ejecutar pruebas de API con Newman** | 10%      | 8%            | 5%                    | 0%         |
+| **1.Configurar proyecto Base de Datos en Supabase **                                          | 5%       | 4%            | 2%                    | 0%         |
+| **2.Crear tabla SQL**                                                          | 5%       | 4%            | 2%                    | 0%         |
+| **3.Insertar datos en SQL**                                                    | 10%      | 8%            | 5%                    | 0%         |
+| **4.Crear consultas SQL**                                                      | 15%      | 10%           | 5%                    | 0%         |
+| **5.Actualizar y eliminar datos en SQL**                                       | 5%       | 4%            | 2%                    | 0%         |
+| **6.Generar API y documentación de la API y configurar POSTMAN **                        | 5%       | 4%            | 2%                    | 0%         |
+| **7.Pruebas de peticiones API GET con Postman (tests y variables)**            | 10%      | 8%            | 5%                    | 0%         |
+| **8.Pruebas de peticiones API PATCH con Postman (tests y variables)**          | 10%      | 8%            | 5%                    | 0%         |
+| **9.Pruebas de peticiones API POST con Postman (tests y variables)**           | 10%      | 8%            | 5%                    | 0%         |
+| **10.Pruebas de peticiones API DELETE con Postman (tests y variables)**         | 10%      | 8%            | 5%                    | 0%         |
+| **11.Integrar la API en un proyecto web**                                       | 5%       | 4%            | 2%                    | 0%         |
+| **12.Configurar CI con GitHub Actions para ejecutar pruebas de API con Newman** | 10%      | 8%            | 5%                    | 0%         |
 
 
 Para superar el módulo, el proyecto debe obtener una calificación final igual o superior al 65%.
