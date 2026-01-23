@@ -2,13 +2,7 @@ Configuración en integración continua y reportes
 ------------------------------------
 [VER CLASE: Reportes e Integración Contínua Github Actions - 20 min](https://bootcampqa.com/videosauto/playwrightci.mp4)
 
-Perfecto, te agrego **solo lo básico**, para que entiendan **qué es integración continua** y **qué pinta GitHub Actions aquí**, sin entrar en demasiado detalle y alineado con el workflow que pasas.
 
----
-
-## Configuración en integración continua y reportes
-
-[VER CLASE: Reportes e Integración Contínua Github Actions - 20 min](https://bootcampqa.com/videosauto/playwrightci.mp4)
 
 ## Integración continua (CI)
 
@@ -48,7 +42,7 @@ De forma general, el flujo es el siguiente:
 
 ## Reportes y evidencias en Playwright
 
-Playwright permite grabar videos de cada test y ajustar varias opciones. Aquí están algunas de las más útiles:
+Playwright permite grabar videos de cada test y ajustar varias opciones que pueden incluirse en el workflow de github actions. Aquí están algunas de las más útiles:
 
 ### Grabar Videos
 
