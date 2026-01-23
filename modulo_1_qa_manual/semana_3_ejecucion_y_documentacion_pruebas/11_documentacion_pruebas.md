@@ -1,4 +1,4 @@
-# Documentación de plan de pruebas en confluence
+# Documentación de plan de pruebas
 
 Antes de cada release, se documentan las pruebas realizadas para registrar los resultados, los errores encontrados y permitir tomar decisiones informadas sobre la calidad del producto y los próximos pasos. Esta documentación se centraliza en **Confluence** para que todo el equipo tenga acceso a la información.  
 
