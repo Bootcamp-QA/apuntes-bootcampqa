@@ -25,7 +25,7 @@ Cada semana habrá **una clase en directo** con la siguiente estructura:
      - Durante la clase se podrá trabajar en el proyecto individual.
      - Las estudiantes podrán pedir ayuda o resolver dudas sobre lo que están realizando.
 
-## Trabajo durante la semana - 4 a 8 horas
+## Trabajo durante la semana - 5 a 10 horas (Depende de la semana)
 
 - Cada estudiante debe **ver las clases de la semana** y realizar el trabajo correspondiente:
   - Si el trabajo es individual, se realiza de forma individual.
