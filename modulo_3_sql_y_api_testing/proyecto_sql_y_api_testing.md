@@ -21,7 +21,7 @@ Puede hacerse en inglés (recomendado) o español. Importante, todo el proyecto 
 ### 2. Crear Tabla `create.sql`  
 
 1. Crear una tabla con los siguientes campos:
-   1. id
+   1. id autoincremento
    2. name (opcional)
    3. email (obligatorio)
    4. subject (obligatorio)
