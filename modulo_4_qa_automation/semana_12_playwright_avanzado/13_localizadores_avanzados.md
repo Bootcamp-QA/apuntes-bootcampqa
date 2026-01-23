@@ -1,4 +1,4 @@
-Localizadores Avanzados
+#Localizadores Avanzados
 -----------------------
 
 [VER CLASE: Localizadores Avanzados - 30 min](https://bootcampqa.com/videosauto/playwrightlocalizadoresavanzados.mp4)
@@ -16,13 +16,13 @@ locator = page.locator(".item").filter(has _text="Producto Destacado")
 
 Usa `first`, `last`, o `nth()` para seleccionar un elemento específico de una lista de elementos encontrados. Esto es útil cuando necesitas interactuar con el primero, último, o un elemento en una posición específica.
 
- # Seleccionar el primer elemento
+ Ejemplo Seleccionar el primer elemento
 locator = page.locator(".item").first
 
-# Seleccionar el último elemento
+Ejemplo Seleccionar el último elemento
 locator = page.locator(".item").last
 
-# Seleccionar el tercer elemento (índice 2)
+Ejemplo Seleccionar el tercer elemento (índice 2)
 locator = page.locator(".item").nth(2)
     
 
@@ -37,11 +37,11 @@ locator = page.locator("div.contenedor").get _by _role("heading", name="Título 
 
 Utiliza `locator()` con selectores CSS para localizar elementos basados en sus etiquetas, clases, o atributos específicos. Este enfoque es muy flexible pero puede ser menos robusto si los selectores cambian frecuentemente.
 
- # Localizar un elemento por etiqueta
+ Ejemplo Localizar un elemento por etiqueta
 locator = page.locator("h1")
 
-# Localizar un elemento por etiqueta y clase
+Ejemplo Localizar un elemento por etiqueta y clase
 locator = page.locator("h1.updite")
 
-# Localizar un elemento con un atributo específico
+Ejemplo Localizar un elemento con un atributo específico
 locator = page.locator("button [data-action='submit' ]")
