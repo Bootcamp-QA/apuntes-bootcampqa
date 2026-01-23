@@ -136,15 +136,18 @@ URL: [https://api.example.com/users/1](https://api.example.com/users/1)
 Método: DELETE
 ```
 
-## 5. Autenticación con Basic Authentication
+## 5. Autenticación
 
-La autenticación básica es un método sencillo para autenticar solicitudes HTTP.
+Algunas APIs por seguridad requiren autorización. Hay varios tipos, depende de la API. En el caso de Supabase, usa de tipo API KEY. Para agregar la autentificación en postman sigue estos pasos:
 
 1. Selecciona la solicitud en tu colección.
 2. Haz clic en la pestaña "Authorization".
-3. En el menú desplegable de tipo, selecciona "Basic Auth".
-4. Introduce tu nombre de usuario y contraseña en los campos correspondientes.
-5. Haz clic en "Save" para guardar los cambios.
+3. En el menú desplegable de tipo, selecciona "API KEY".
+4. Rellena los campos con los siguientes datos:
+   - Key: apikey
+   - Value: API KEY de tu API. (Puedes encontrarlo en supabase, settings, api key)
+   - Add to: selecciona HEADER
+6. Haz clic en "Save" para guardar los cambios.
 
 Con estos pasos, tu solicitud incluirá automáticamente las credenciales de autenticación básica.
 
