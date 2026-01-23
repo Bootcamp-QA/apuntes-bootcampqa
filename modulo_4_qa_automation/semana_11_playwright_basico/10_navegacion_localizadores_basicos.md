@@ -1,6 +1,8 @@
 Navegación en Playwright
 ------------------------
 
+[Ver Clase: Navegación y Localizadores Básicos - 15min](https://bootcampqa.com/videosauto/pwnavegacionlocalizadoresclic.mp4)
+
 La navegación es una parte fundamental de las pruebas con Playwright. Aquí te mostramos cómo utilizar `goto()`, `wait_for_url()`, y métodos para obtener la URL y el título de la página.
 
 ### 1 . Ir a una Página con `goto()`
