@@ -1,91 +1,70 @@
-# Cómo obtener los datos necesarios en Postman para GitHub Actions
+# Ejecución de Tests de Postman en GitHub Actions
 
-Para ejecutar una colección privada de Postman en GitHub Actions con Newman, necesitas tres datos: URL de la colección, API Key y URL del environment. A continuación se explica cómo obtener cada uno.
+Este documento explica cómo configurar y entender un workflow de GitHub Actions que ejecuta automáticamente tests de Postman usando Newman, descarga la colección y el environment desde la API de Postman y genera un reporte HTML.
 
----
+## 1. Configuración previa en Postman
 
-## 1. URL de la colección
+Antes de tocar GitHub, necesitamos obtener tres cosas desde Postman:
 
-1. Abre Postman y ve a la pestaña **Collections** en el panel izquierdo.
-2. Selecciona la colección que quieres usar.
-3. Haz clic en los **tres puntos (⋮)** al lado del nombre de la colección y elige **Share Collection**.
-4. Selecciona **Get a public link** o **Get a link via API** (si la colección es privada, necesitarás la API Key para autenticación).
-5. Copia la URL que aparece; esta será la URL que usarás en el workflow de GitHub Actions.
+### 1.1 Obtener la URL (ID) de la colección
 
-> Nota: Aunque tu colección sea privada, la URL combinada con la API Key permitirá que Newman acceda a ella sin exponer tu colección públicamente.
+Abre Postman y selecciona la colección que quieres ejecutar.
 
----
+Haz clic en los tres puntos (⋮) → Share.
 
-## 2. Postman API Key
+Copia el id de la colección de la url:
 
-1. Abre Postman y haz clic en tu avatar (esquina superior derecha) y selecciona **Settings**.
-2. Ve a la pestaña **API Keys**.
-3. Haz clic en **Generate API Key**.
-4. Pon un nombre descriptivo a la API Key (por ejemplo: `GitHub Actions`).
-5. Haz clic en **Generate Key**.
-6. Copia la clave generada; esta se usará como secreto en GitHub (`POSTMAN_API_KEY`).
+Formato de la URL:
 
-> Nota: Nunca compartas esta clave en repositorios públicos. Siempre guárdala como **Secret** en GitHub Actions.
+https://api.getpostman.com/collections/33801345-181c803c-a263-4988-9141-4482d833ab13
 
----
+### 1.2 Obtener el ID del Environment
 
-## 3. URL del Environment
+En Postman, ve a Environments y Selecciona el environment.
 
-1. En Postman, ve a la pestaña **Environments**.
-2. Selecciona el environment que deseas usar con la colección.
-3. Haz clic en **⋮** al lado del nombre del environment y selecciona **Share Environment**.
-4. Elige **Get a link via API** para obtener la URL del environment.
-5. Copia esta URL; será usada en el workflow de GitHub Actions (`POSTMAN_ENV_URL`).
+Haz clic en Share y copia el ID del Environment:
 
-> Nota: Esto permite que Newman descargue el environment completo con todas las variables definidas (como tokens, base URL, credenciales de prueba, etc.) sin necesidad de exportar manualmente.
+Formato:
 
----
+https://api.getpostman.com/environments/33801345-181c803c-a263-4988-9141-4482d833eb4c
 
-Con estos tres datos:  
+### 1.3 Obtener el API Key de Postman
 
-- **POSTMAN_COLLECTION_URL** → URL de la colección  
-- **POSTMAN_API_KEY** → clave privada de Postman  
-- **POSTMAN_ENV_URL** → URL del environment  
+Ve a Postman → Settings.
 
-Ya puedes configurar GitHub Actions para ejecutar la colección automáticamente y generar reportes cada vez que haya cambios.
+Abre la pestaña API Keys.
 
-## Cómo usar estos datos en GitHub Actions
+Genera una nueva clave.
 
-Para ejecutar tu colección de Postman automáticamente desde GitHub y generar reportes, sigue estos pasos:
+Guarda el valor, lo necesitaremos en GitHub.
 
----
+## 2. Configurar el secreto en GitHub
 
-### 1. Guardar cada dato como secreto en GitHub
+En el repositorio de github ve a Settings
+Luego a Secrets and variables → Actions
+Y luego a New repository secret
 
-1. Ve a tu repositorio en GitHub.
-2. Haz clic en **Settings** → **Secrets and variables** → **Actions** → **New repository secret**.
-3. Crea los siguientes secretos:
+Crear este secreto:
 
-   - `POSTMAN_API_KEY` → tu API Key de Postman.
-   - `POSTMAN_COLLECTION_URL` → URL de la colección.
-   - `POSTMAN_ENV_URL` → URL del environment.
+Nombre: POSTMAN_API_KEY
 
-> Nota: Los secretos se mantienen privados y no se exponen en los logs de GitHub Actions.
+Valor: tu API Key de Postman
 
----
+## 3. Agrega la url de la colección y el environment de POSTMAN a github workflow
 
-### 2. Usar los secretos en el workflow de GitHub Actions
+Abre el archivo de github workflow que estará en la carpeta .github/workflow.
+Busca en el archivo del workflow la url de la colección y cambiala por por la de tu colección de postman: **"https://api.getpostman.com/collections/33801345-181c803c-a263-4988-9141-4482d833eb4c"**
 
-1. Crea un archivo de workflow en `.github/workflows/run_postman.yml`.
-2. Dentro del workflow, configura los pasos para ejecutar Newman usando los secretos:
+Busca en el archivo del workflow la url del environment y cambiala por la de tu environment de postman: **https://api.getpostman.com/environments/33801345-181c803c-a263-4988-9141-4482d833eb4c**
 
-   - Descargar la colección desde la URL usando la API Key.
-   - Descargar el environment desde la URL usando la API Key.
-   - Ejecutar los tests de la colección aplicando las variables del environment.
+## 4. Qué hace el workflow
 
-> Esto permite ejecutar automáticamente los tests sin necesidad de exportar manualmente la colección o el environment cada vez que haya cambios.
+- Se ejecuta al hacer push a main, manualmente o de forma programada
 
----
+- Descarga la colección y el environment desde Postman
 
-### 3. Generar un reporte HTML automáticamente
+- Ejecuta los tests con Newman
 
-1. Configura Newman para generar un reporte en HTML usando la opción `--reporters html`.
-2. Cada vez que el workflow se ejecute (automáticamente o manualmente), Newman generará el reporte.
-3. Puedes configurar el workflow para guardar el reporte como **artifact** o publicarlo en un directorio accesible dentro del repositorio.
+- Genera un reporte HTML
 
-> Esto permite que cualquier miembro del equipo descargue y revise el reporte directamente desde GitHub Actions, sin necesidad de ejecutar Newman localmente.
+- Guarda el reporte como artefacto en GitHub Actions para que puedas descargarlo.
