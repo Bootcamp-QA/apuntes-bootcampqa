@@ -1,7 +1,8 @@
-Navegación en Playwright
-------------------------
+# Navegación y Localizadores en Playwright
 
 [Ver Clase: Navegación y Localizadores Básicos - 15min](https://bootcampqa.com/videosauto/pwnavegacionlocalizadoresclic.mp4)
+
+## Navegación
 
 La navegación es una parte fundamental de las pruebas con Playwright. Aquí te mostramos cómo utilizar `goto()`, `wait_for_url()`, y métodos para obtener la URL y el título de la página.
 
@@ -9,38 +10,32 @@ La navegación es una parte fundamental de las pruebas con Playwright. Aquí te 
 
 El método `goto()` se utiliza para navegar a una URL específica. Maneja automáticamente redirecciones y espera hasta que la página haya terminado de cargar.
 
- # Navegar a una URL específica
-    page.goto("https://bootcampqa.com")
+Ejemplo: Navegar a una URL específica
+    `page.goto("https://bootcampqa.com")`
     
-
-Utiliza `goto()` como el primer paso para cargar la página que quieres probar.
 
 ### 2 . Esperar a una URL Específica con `wait_for_url()`
 
 El método `wait_for_url()` se utiliza para esperar a que la URL cambie a una dirección específica. Es útil cuando hay una redirección después de una acción, como hacer clic en un botón o enviar un formulario.
-
- # Esperar hasta que la URL contenga "dashboard"
-     page.wait _for _url(" * */dashboard")
+ Ejemplo:Esperar hasta que la URL contenga "dashboard"
+     `page.wait _for _url(" * */dashboard")`
     
-
-Esta técnica permite asegurarte de que la redirección ha ocurrido antes de continuar con las siguientes acciones del test.
 
 ### 3 . Obtener la URL Actual con `page.url`
 
-El atributo `page.url` devuelve la URL actual de la página. Es útil para validar que la navegación ha sido exitosa y para hacer aserciones.
+El atributo `page.url` devuelve la URL actual de la página. Es útil para validar que la navegación ha sido exitosa y para hacer aserciones. Úsalo para comprobar que estás en la página correcta después de una acción de navegación.
 
- # Obtener la URL de la página actual
+Ejemplo: Obtener la URL de la página actual
+`
 current _url = page.url
 print(f"La URL actual es: {current _url}")
-    
-
-Úsalo para comprobar que estás en la página correcta después de una acción de navegación.
+`    
 
 ### 4 . Obtener el Título de la Página con `page.title()`
 
-El método `page.title()` devuelve el título de la página actual. Es útil para validar que se ha cargado la página correcta y para verificar el contenido de la pestaña del navegador.
+El método `page.title()` devuelve el título de la página actual. Es útil para validar que se ha cargado la página correcta y para verificar el contenido de la pestaña del navegador. El título suele ser un buen indicador para confirmar que la página cargada es la esperada.
 
- # Obtener el título de la página
+ Ejemplo: Obtener el título de la página
 
  ```
 page _title = page.title()
@@ -48,18 +43,15 @@ print(f"El título de la página es: {page _title}")
  ```
     
 
-El título suele ser un buen indicador para confirmar que la página cargada es la esperada.
-
 ### 5 . Esperar a que la Página se Cargue Completamente con `wait_for_load_state()`
 
-El método `wait_for_load_state()` asegura que la página esté completamente cargada antes de continuar. Esto reduce errores por intentar interactuar con elementos que aún no están disponibles.
+El método `wait_for_load_state()` asegura que la página esté completamente cargada antes de continuar. Esto reduce errores por intentar interactuar con elementos que aún no están disponibles. Usa esta función cuando necesites estar segura de que todos los recursos (como imágenes y scripts) se han cargado antes de proceder.
 
- # Esperar hasta que la página esté completamente cargada
+ Ejemplo: Esperar hasta que la página esté completamente cargada
   ```
  page.wait _for _load _state("load")
   ```
 
-Usa esta función cuando necesites estar seguro de que todos los recursos (como imágenes y scripts) se han cargado antes de proceder.
 
 Localizadores
 -------------
