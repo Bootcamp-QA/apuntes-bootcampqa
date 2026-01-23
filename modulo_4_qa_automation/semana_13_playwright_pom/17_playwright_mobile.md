@@ -7,10 +7,11 @@ Test en Moviles
  # Ejecutar con Device telefono movil
 
  Por defecto playwright ejecuta los tests en tamaño escritorio, pero con el comando Device puedes elegir en que tamaño quieres que se ejecute.
- 
+
     pytest --device='iPhone 12'
 
 
+[Lista de Devices Disponibles](https://github.com/microsoft/playwright/blob/main/packages/playwright-core/src/server/deviceDescriptorsSource.json)
 
  # Comprobar el tamaño de la pantalla en playwright
  En general, los tests van a funcionar en cualquier tamaño, entonces los tests funcionan sin ninguna modificación.
@@ -28,4 +29,3 @@ Test en Moviles
 
     
 
-[Lista de Devices Disponibles](https://github.com/microsoft/playwright/blob/main/packages/playwright-core/src/server/deviceDescriptorsSource.json)
