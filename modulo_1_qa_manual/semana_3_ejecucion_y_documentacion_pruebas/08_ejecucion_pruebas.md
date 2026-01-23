@@ -3,7 +3,7 @@
 # Video de la clase
 
 
-[Ver clase: Ejecución de Pruebas - 10 min](https://bootcampqa.com/videos/herramientasdegestiondepruebas.mp4)
+[Ver clase: Ejecución de Pruebas - 10 min](https://bootcampqa.com/videos/manual-ejecucion-pruebas.mp4)
 
 # Apuntes
 
