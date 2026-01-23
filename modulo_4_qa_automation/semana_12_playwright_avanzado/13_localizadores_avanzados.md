@@ -1,7 +1,9 @@
 Localizadores Avanzados
 -----------------------
 
-Playwright también proporciona localizadores avanzados para escenarios más específicos. Estos métodos permiten mayor precisión y flexibilidad al interactuar con elementos en la página:
+[VER CLASE: Localizadores Avanzados - 30 min](https://bootcampqa.com/videosauto/playwrightlocalizadoresavanzados.mp4)
+
+Playwright también proporciona localizadores avanzados para escenarios más específicos. Estos métodos permiten mayor precisión y flexibilidad al interactuar con elementos en la página. Algunos de los más comunes son:
 
 ### 1 . Filter (Filtrado)
 
