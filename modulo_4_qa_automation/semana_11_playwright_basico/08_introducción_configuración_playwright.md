@@ -12,7 +12,7 @@ Para comenzar, asegúrate de tener Python instalado y las dependencias necesaria
 
 ### Instalación de Python
 
-1 . Descarga e instala Python desde su [página oficial](https://www.python.org/downloads/).
+1 . Descarga e instala Python 12 desde su [página oficial](https://www.python.org/downloads/).
 2. Añade Python a tu `PATH` durante la instalación.
     
 
