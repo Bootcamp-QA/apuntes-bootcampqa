@@ -14,7 +14,7 @@ Test en Moviles
 [Lista de Devices Disponibles](https://github.com/microsoft/playwright/blob/main/packages/playwright-core/src/server/deviceDescriptorsSource.json)
 
  # Comprobar el tamaño de la pantalla en playwright
- En general, los tests van a funcionar en cualquier tamaño, entonces los tests funcionan sin ninguna modificación.
+ En general, los tests van a funcionar en cualquier tamaño ya que la web se comportará igual en móvil y escritorio.
  Pero hay algunos casos específicos en que se muestra diferente en móvil que en escritorio, como por ejemplo el menú. 
  En esos casos, debemos indicar en el test que actue diferente según el tamaño de la pantalla.
  Puedes utilizar playwright para saber el tamaño de la pantalla.
