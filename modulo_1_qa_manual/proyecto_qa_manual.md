@@ -113,28 +113,35 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
 
 ## CRITERIOS DE EVALUACIÓN
 
-Completo: Todos los  completados.
+Sobreasliente: Objetivo 100% Completados.
 
-Casi completo: 2  incompletos o 1 requisito sin realizar.
+Notable: Objetivo más del 80% Completados
 
-Parcialmente completo: Más de 2  incompletos o más de 1 requisito sin realizar.
+Suficiente: Objetivo más del 60% Completados
+
+Casi Suficiente: Objetivo del 40% Completados
+
+Insuficiente: Menos del 40% Completado
+
+
+
 
 Incompleto: no realizado.
 
-| Objetivo de aprendizaje                                                           | Completo | Casi completo | Parcialmente completo | Incompleto |
+| Objetivo de aprendizaje                                                           | Sobresaliente | Notable |  Suficiente  | Casi Suficiente |  
 | --------------------------------------------------------------------------------- | -------- | ------------- | --------------------- | ---------- |
-| **1.Configurar un proyecto ágil Scrum en Jira**                                   | 5%       | 4%            | 3%                    | 0%         |
-| **2.Crear historias de usuario en Jira con criterios de aceptación**              | 15%      | 10%           | 5%                    | 0%         |
-| **3. Diseñar pruebas en lenguaje Gherkin usando herramientas de gestión de pruebas**| 35%      | 30%           | 20%                   | 0%         |
-| **4.Ejecutar pruebas en web y móvil y registrar resultados**                        | 20%      | 15%           | 10%                   | 0%         |
-| **5.Identificar y reportar errores en Jira**                                        | 10%      | 8%            | 5%                    | 0%         |
-| **6.Crear una release en Jira**                                                     | 5%       | 4%            | 2%                    | 0%         |
-| **7.Crear un plan de pruebas de regresión**                                         | 5%       | 4%            | 2%                    | 0%         |
-| **8.Documentar un plan de pruebas**                                                 | 5%       | 4%            | 2%                    | 0%         |
+| **1.Configurar un proyecto ágil Scrum en Jira**                                   | 5%       | 4%            | 3%                    | 2%         |
+| **2.Crear historias de usuario en Jira con criterios de aceptación**              | 15%      | 12%           | 10%                    | 5%         |
+| **3. Diseñar pruebas en lenguaje Gherkin usando herramientas de gestión de pruebas**| 35%      | 30%           | 20%                   | 15%         |
+| **4.Ejecutar pruebas en web y móvil y registrar resultados**                        | 20%      | 15%           | 12%                   | 10%         |
+| **5.Identificar y reportar errores en Jira**                                        | 10%      | 8%            | 6%                    | 3%         |
+| **6.Crear una release en Jira**                                                     | 5%       | 4%            | 3%                    | 2%         |
+| **7.Crear un plan de pruebas de regresión**                                         | 5%       | 4%            | 3%                    | 2%         |
+| **8.Documentar un plan de pruebas**                                                 | 5%       | 4%            | 3%                    | 2%         |
 
-Para superar el módulo, el proyecto debe obtener una calificación final igual o superior al 65%.
+Para superar el módulo, el proyecto debe obtener una calificación final igual o superior a suficiente 60% completado.
 
-El proyecto se realiza en equipo de entre 2 y 3 miembros.
+El proyecto se realiza en equipo de entre 3 y 4 miembros.
 
 Cada integrante es responsable de cumplir sus tareas asignadas.
 
