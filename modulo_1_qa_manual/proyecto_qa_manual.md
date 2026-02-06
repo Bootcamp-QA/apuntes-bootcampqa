@@ -125,9 +125,6 @@ Insuficiente: Menos del 40% Completado
 
 
 
-
-Incompleto: no realizado.
-
 | Objetivo de aprendizaje                                                           | Sobresaliente | Notable |  Suficiente  | Casi Suficiente |  
 | --------------------------------------------------------------------------------- | -------- | ------------- | --------------------- | ---------- |
 | **1.Configurar un proyecto ágil Scrum en Jira**                                   | 5%       | 4%            | 3%                    | 2%         |
