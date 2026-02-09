@@ -42,17 +42,17 @@ Se recomienda realizarlo **en inglés** si se tiene conocimiento del idioma, ya 
 
 # CRITERIOS DE EVALUACIÓN
 
-- Completo: Todos los requisitos completados.
-- Casi completo: 2 requisitos incompletos o 1 requisito sin realizar.
-- Parcialmente completo: Más de 2 requisitos incompletos o más de 1 requisito sin realizar.
-- Incompleto: No realizado.
+- Sobresaliente: 100% del objetivo completado.
+- Notable: Más del 80% del objetivo completado
+- Cumple Objetivos: Más del 60% del objetivo completado.
+- Próximo al objetivo: Más del 45% del objetivo completado
 
-| Objetivo de aprendizaje                                                         | Completo | Casi completo | Parcialmente completo | Incompleto |
+| Objetivo de aprendizaje                                                         | Sobresaliente | Notable | Cumple Objetivos | Próximo al objetivo |
 | ------------------------------------------------------------------------------- | -------- | ------------- | --------------------- | ---------- |
-| **1. Crear un proyecto en GitHub con README y publicar página en GitHub Pages** | 15%      | 10%           | 5%                    | 0%         |
-| **2. Modificar el contenido HTML5**                                                | 50%      | 40%           | 25%                   | 0%         |
-| **3. Agregar validaciones al formulario utilizando HTML5**                         | 20%      | 15%           | 10%                   | 0%         |
-| **4. Personalizar estilos utilizando CSS3**                                        | 25%      | 20%           | 15%                   | 0%         |
+| **1. Crear un proyecto en GitHub con README y publicar página en GitHub Pages** | 15%      | 12%           | 10%                    | 5%         |
+| **2. Modificar el contenido HTML5**                                                | 50%      | 40%           | 30%                   | 20%         |
+| **3. Agregar validaciones al formulario utilizando HTML5**                         | 20%      | 15%           | 10%                   | 5%         |
+| **4. Personalizar estilos utilizando CSS3**                                        | 25%      | 20%           | 15%                   | 10%         |
 
 
 Para superar el módulo, el proyecto debe obtener una calificación final igual o superior al 65%.
