@@ -173,26 +173,26 @@ Agrega test para validar códigos de respuesta.
 
 # CRITERIOS DE EVALUACIÓN
 
-- Completo: Todos los requisitos completados.
-- Casi completo: 2 requisitos incompletos o 1 requisito sin realizar.
-- Parcialmente completo: Más de 2 requisitos incompletos o más de 1 requisito sin realizar.
-- Incompleto: No realizado.
+- Sobresaliente: 100% del objetivo completado.
+- Notable: Más del 80% del objetivo completado
+- Cumple Objetivos: Más del 60% del objetivo completado.
+- Próximo al objetivo: Más del 45% del objetivo completado
 
+| Objetivo de aprendizaje                                                                 | Sobresaliente | Notable | Cumple Objetivos | Próximo al objetivo |
+|-----------------------------------------------------------------------------------------|---------------|---------|------------------|---------------------|
+| **1. Configurar proyecto Base de Datos en Supabase**                                     | 5%            | 4%      | 3%               | 2%                  |
+| **2. Crear tabla SQL**                                                                   | 5%            | 4%      | 3%               | 3%                  |
+| **3. Insertar datos en SQL**                                                             | 10%           | 8%      | 6%               | 5%                  |
+| **4. Crear consultas SQL**                                                               | 15%           | 12%     | 10%              | 8%                  |
+| **5. Actualizar y eliminar datos en SQL**                                                | 5%            | 4%      | 3%               | 3%                  |
+| **6. Generar API y documentación de la API y configurar Postman**                        | 5%            | 4%      | 3%               | 2%                  |
+| **7. Pruebas de peticiones API GET con Postman (tests y variables)**                     | 10%           | 8%      | 6%               | 5%                  |
+| **8. Pruebas de peticiones API PATCH con Postman (tests y variables)**                   | 10%           | 8%      | 6%               | 5%                  |
+| **9. Pruebas de peticiones API POST con Postman (tests y variables)**                    | 10%           | 8%      | 6%               | 5%                  |
+| **10. Pruebas de peticiones API DELETE con Postman (tests y variables)**                 | 10%           | 8%      | 6%               | 5%                  |
+| **11. Integrar la API en un proyecto web**                                                | 5%            | 4%      | 3%               | 2%                  |
+| **12. Configurar CI con GitHub Actions para ejecutar pruebas de API con Newman**          | 10%           | 8%      | 4%               | 3%                  |
 
-| Objetivo de aprendizaje                                                      | Completo | Casi completo | Parcialmente completo | Incompleto |
-| ---------------------------------------------------------------------------- | -------- | ------------- | --------------------- | ---------- |
-| **1.Configurar proyecto Base de Datos en Supabase **                                          | 5%       | 4%            | 2%                    | 0%         |
-| **2.Crear tabla SQL**                                                          | 5%       | 4%            | 2%                    | 0%         |
-| **3.Insertar datos en SQL**                                                    | 10%      | 8%            | 5%                    | 0%         |
-| **4.Crear consultas SQL**                                                      | 15%      | 10%           | 5%                    | 0%         |
-| **5.Actualizar y eliminar datos en SQL**                                       | 5%       | 4%            | 2%                    | 0%         |
-| **6.Generar API y documentación de la API y configurar POSTMAN **                        | 5%       | 4%            | 2%                    | 0%         |
-| **7.Pruebas de peticiones API GET con Postman (tests y variables)**            | 10%      | 8%            | 5%                    | 0%         |
-| **8.Pruebas de peticiones API PATCH con Postman (tests y variables)**          | 10%      | 8%            | 5%                    | 0%         |
-| **9.Pruebas de peticiones API POST con Postman (tests y variables)**           | 10%      | 8%            | 5%                    | 0%         |
-| **10.Pruebas de peticiones API DELETE con Postman (tests y variables)**         | 10%      | 8%            | 5%                    | 0%         |
-| **11.Integrar la API en un proyecto web**                                       | 5%       | 4%            | 2%                    | 0%         |
-| **12.Configurar CI con GitHub Actions para ejecutar pruebas de API con Newman** | 10%      | 8%            | 5%                    | 0%         |
 
 
 Para superar el módulo, el proyecto debe obtener una calificación final igual o superior al 65%.
