@@ -75,6 +75,8 @@ Automatizar las pruebas de filtros:
 - Notable: Más del 80% del objetivo completado.
 - Cumple Objetivos: Más del 60% del objetivo completado.
 - Próximo al objetivo: Más del 45% del objetivo completado.
+
+  
 | Objetivo de aprendizaje                                                                 | Sobresaliente | Notable | Cumple Objetivos | Próximo al objetivo |
 |-----------------------------------------------------------------------------------------|---------------|---------|------------------|---------------------|
 | 1. Crear un proyecto de Playwright con Python en GitHub y actualizar README              | 5%            | 4%      | 3%               | 2%                  |
