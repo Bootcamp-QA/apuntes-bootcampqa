@@ -180,21 +180,19 @@ Agrega test para validar códigos de respuesta.
 
 | Objetivo de aprendizaje                                                                 | Sobresaliente | Notable | Cumple Objetivos | Próximo al objetivo |
 |-----------------------------------------------------------------------------------------|---------------|---------|------------------|---------------------|
-| **1. Configurar proyecto Base de Datos en Supabase**                                     | 5%            | 4%      | 3%               | 2%                  |
-| **2. Crear tabla SQL**                                                                   | 5%            | 4%      | 3%               | 3%                  |
-| **3. Insertar datos en SQL**                                                             | 10%           | 8%      | 6%               | 5%                  |
-| **4. Crear consultas SQL**                                                               | 15%           | 12%     | 10%              | 8%                  |
-| **5. Actualizar y eliminar datos en SQL**                                                | 5%            | 4%      | 3%               | 3%                  |
-| **6. Generar API y documentación de la API y configurar Postman**                        | 5%            | 4%      | 3%               | 2%                  |
-| **7. Pruebas de peticiones API GET con Postman (tests y variables)**                     | 10%           | 8%      | 6%               | 5%                  |
-| **8. Pruebas de peticiones API PATCH con Postman (tests y variables)**                   | 10%           | 8%      | 6%               | 5%                  |
-| **9. Pruebas de peticiones API POST con Postman (tests y variables)**                    | 10%           | 8%      | 6%               | 5%                  |
-| **10. Pruebas de peticiones API DELETE con Postman (tests y variables)**                 | 10%           | 8%      | 6%               | 5%                  |
-| **11. Integrar la API en un proyecto web**                                                | 5%            | 4%      | 3%               | 2%                  |
-| **12. Configurar CI con GitHub Actions para ejecutar pruebas de API con Newman**          | 10%           | 8%      | 4%               | 3%                  |
+| 1. Configurar proyecto Base de Datos en Supabase                                         | 5%            | 4%      | 3%               | 2%                  |
+| 2. Crear tabla SQL                                                                       | 5%            | 4%      | 3%               | 2%                  |
+| 3. Insertar datos en SQL                                                                 | 10%           | 8%      | 6%               | 5%                  |
+| 4. Crear consultas SQL                                                                   | 15%           | 12%     | 10%              | 8%                  |
+| 5. Actualizar y eliminar datos en SQL                                                    | 5%            | 4%      | 3%               | 2%                  |
+| 6. Generar API y documentación de la API y configurar Postman                            | 5%            | 4%      | 3%               | 2%                  |
+| 7. Pruebas de peticiones API GET con Postman (tests y variables)                         | 10%           | 8%      | 6%               | 5%                  |
+| 8. Pruebas de peticiones API PATCH con Postman (tests y variables)                       | 10%           | 8%      | 6%               | 5%                  |
+| 9. Pruebas de peticiones API POST con Postman (tests y variables)                        | 10%           | 8%      | 6%               | 5%                  |
+| 10. Pruebas de peticiones API DELETE con Postman (tests y variables)                     | 10%           | 8%      | 6%               | 5%                  |
+| 11. Integrar la API en un proyecto web                                                   | 5%            | 4%      | 3%               | 2%                  |
+| 12. Configurar CI con GitHub Actions para ejecutar pruebas de API con Newman             | 10%           | 8%      | 6%               | 5%                  |
 
-
-
-Para superar el módulo, el proyecto debe obtener una calificación final igual o superior al 65%.
+Para superar el módulo, el proyecto debe obtener una calificación final igual o superior al 60%.
 
 El proyecto se realiza de forma individual.
