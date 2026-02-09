@@ -75,6 +75,7 @@ Automatizar las pruebas de filtros:
 - Notable: Más del 80% del objetivo completado.
 - Cumple Objetivos: Más del 60% del objetivo completado.
 - Próximo al objetivo: Más del 45% del objetivo completado.
+
 | Objetivo de aprendizaje                                                                 | Sobresaliente | Notable | Cumple Objetivos | Próximo al objetivo |
 |-----------------------------------------------------------------------------------------|---------------|---------|------------------|---------------------|
 | 1. Configurar proyecto Base de Datos en Supabase                                         | 5%            | 4%      | 3%               | 2%                  |
@@ -89,6 +90,7 @@ Automatizar las pruebas de filtros:
 | 10. Pruebas de peticiones API DELETE con Postman (tests y variables)                     | 10%           | 8%      | 6%               | 5%                  |
 | 11. Integrar la API en un proyecto web                                                   | 5%            | 4%      | 3%               | 2%                  |
 | 12. Configurar CI con GitHub Actions para ejecutar pruebas de API con Newman             | 10%           | 8%      | 6%               | 5%                  |
+
 
 Para superar el módulo, el proyecto debe obtener una calificación final igual o superior al 60%.
 
