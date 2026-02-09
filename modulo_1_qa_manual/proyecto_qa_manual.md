@@ -19,78 +19,85 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
 
 1. **Menú de navegación**
 
-* **Historia:** Como usuario quiero ver un menú con enlaces a Inicio, Sobre Nosotros, Viajes y Reservas para navegar fácilmente por el sitio.
+* **Historia:** Como usuario quiero ver un menú con enlaces a Inicio, Sobre Nosotros, Productos y Contacto para navegar fácilmente por el sitio.
 * **Criterios de aceptación:**
 
-  * El menú muestra los enlaces: Inicio, Sobre Nosotros, Viajes y Reservas.
+  * El menú muestra los enlaces: Inicio, Sobre Nosotros, Contacto y Reservas.
   * Cada enlace lleva a su sección correspondiente.
   * El menú está visible en todas las páginas.
   * Debe ser responsive.
 
 2. **Página de inicio**
 
-* **Historia:** Como usuario quiero ver un título, una descripción y una imagen de la tienda para entender rápidamente de qué trata el sitio.
+* **Historia:** Como usuario quiero ver una página de inicio para saber la información relevante de la tienda.
 * **Criterios de aceptación:**
 
-  * Se muestra un título claro.
-  * Se incluye una descripción informativa.
-  * Hay una imagen representativa de la agencia.
+  * Se muestra un título con el nombre de la tienda.
+  * Se muestra una descripción.
+  * Hay una imagen de la tienda.
+  * Hay un botón para abrir la página de productos de la tienda.
+  * Debe ser responsive.
+ 
+3. **Página Sobre Nosotros**
+
+* **Historia:** Como usuario quiero ver una página sobre nosotros para conocer más sobre la tienda.
+* **Criterios de aceptación:**
+
+  * La página incluye un título "Sobre Nosotros"
+  * La página incluye información sobre la historia y los valores de la tienda.
+  * La página muestra una imagen del equipo.
   * Debe ser responsive.
 
-3. **Lista de viajes**
+4. **Página de productos**
 
-* **Historia:** Como usuario quiero ver una lista de viajes con nombre, precio y categoría para conocer lo que la agencia ofrece.
+* **Historia:** Como usuario quiero ver una página de productos para ver los productos que ofrece la tienda.
 * **Criterios de aceptación:**
 
-  * La lista muestra todos los viajes disponibles.
-  * Cada producto contiene nombre, precio y categoría.
+  * La página muestra el título "Nuestros Productos".
+  * Debe mostrarse una lista de productos con la siguiente información: Categoría, Nombre, Precio 
   * Debe ser responsive.
 
-4. **Filtros de viajes**
+4. **Filtros de productos**
 
-* **Historia:** Como usuario quiero filtrar la lista de viajes  para encontrar fácilmente los que cumplen mis criterios de búsqueda.
+* **Historia:** Como usuario quiero filtrar los productos para encontrar fácilmente el que se ajuste a mis necesidades.
 * **Criterios de aceptación:**
 
-  * Filtrar por nombre, mostrando productos que contengan el texto ingresado.
-  * Filtrar por rango de precio.
-  * Filtrar por categoría desde un desplegable.
-  * Resultados actualizados mostrando solo productos que cumplan los filtros.
-  * Si no existen coincidencias, mostrar mensaje informativo.
+  La página debe tener los siguientes filtros disponibles:
 
-5. **Página Sobre Nosotros**
+  * Filtrar por nombre: Debe mostrar los productos cuyo nombre contenga el texto introducido.
+  * Filtrar precio: Puede filtrar por precio mínimo, precio máximo, o rango de precio mínimo y máximo. Debe mostrar los productos que estén dentro del rango de precio introducido.
+  * Filtrar por categoría: Plantas, herramientas o macetas. Debe mostrar los productos que tengan la categoría seleccionada.
+  * Los filtros pueden combinarse.
+  * Si no existen coincidencias, se debe mostrar un mensaje informativo.
 
-* **Historia:** Como usuario quiero ver un título, descripción e imagen sobre la empresa para conocer más sobre la tienda.
+
+
+5. **Página de contacto**
+
+* **Historia:** Como usuario quiero tener un formulario de contacto para comunicarme con la tienda.
 * **Criterios de aceptación:**
-
-  * Sección incluye título claro.
-  * Contiene descripción informativa.
-  * Muestra imagen representativa.
-  * Debe ser responsive.
-
-6. **Formulario de reserva**
-
-* **Historia:** Como usuario quiero enviar mis datos mediante un formulario con nombre, email, teléfono (opcional), mensaje para comunicarme con la tienda.
-* **Criterios de aceptación:**
-
-  * Campos: nombre (obligatorio), email (obligatorio), teléfono (opcional), mensaje (obligatorio).
-  * Validación de campos obligatorios.
-  * Formato de email válido.
+La página de contacto debe tener in formulario con los siguientes campos:
+  * nombre (obligatorio)
+  * email (obligatorio), con formato email válido.
+  * teléfono (opcional), con formato teléfono valido (solo números o prefijo +)
+  * mensaje (obligatorio, con máximo 500 caracteres).
   * Mensaje de confirmación al enviar correctamente.
   * Indicaciones si hay errores.
   * Debe ser responsive.
 
 ## Entrega 2 - Diseño de pruebas
 **Objetivo 3:** Diseñar pruebas para cada historia de usuario creada aplicando técnicas de prueba adecuadas.
-1. Crear un sprint en JIRA de una semana con todas las historias de usuario, en la columna to do.
+1. Crear un sprint en JIRA de una semana con todas las historias de usuario.
 2. Configurar herramienta de gestión de pruebas Asserthat en el proyecto de JIRA
-3. Para todas las historias de usuario, crear sus casos de prueba en lenguaje gherkin usando las técnicas de pruebas. Una vez creadas, pasar la tarea a QA.
+3. Para todas las historias de usuario, crear sus casos de prueba en lenguaje gherkin usando las técnicas de pruebas.
+4. Una vez creadas las pruebas, pasar la tarea a QA.
 
 
 ## Entrega 3 - Ejecución de pruebas, reporte de errores y generación de reportes (45%)
 
 **Objetivo 4:** Ejecutar pruebas en web y móvil y registrar resultados en JIRA
 1. Ejecutar las pruebas de cada historia de usuario en web y móvil
-2. Registrar los resultados de las pruebas en JIRA pass/failed
+2. Registrar los resultados de las pruebas
 3. Pasar a done las historias de usuario una vez finalizadas las pruebas.
   
 **Objetivo 5:** Identificar y reportar errores en Jira
@@ -103,7 +110,6 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
 
 
 **Objetivo 7: Crear un plan de pruebas de regresión**
-:
 1. Identificar los casos de prueba críticos y agregar la etiqueta regresion.
 2. Crear una tarea con todas las pruebas marcadas como regresión (será referencia para su posterior automatización).
 
@@ -113,25 +119,23 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
 
 ## CRITERIOS DE EVALUACIÓN
 
-Sobreasliente: Objetivo 100% Completados.
+Sobreasliente: 100% del objetivo completado.
 
-Notable: Objetivo más del 80% Completados
+Notable:  Más del 80% del objetivo completado.
 
-Suficiente: Objetivo más del 60% Completados
+Cumple Objetivos: Más del 60% del objetivo completado.
 
-Casi Suficiente: Objetivo del 40% Completados
-
-Insuficiente: Menos del 40% Completado
+Próxima al objetivo: Más del 45% del objetivo completado.
 
 
 
-| Objetivo de aprendizaje                                                           | Sobresaliente | Notable |  Suficiente  | Casi Suficiente |  
+| Objetivo de aprendizaje                                                           | Sobresaliente | Notable |  Cumple Objetivos  | Próxima al objetivo |  
 | --------------------------------------------------------------------------------- | -------- | ------------- | --------------------- | ---------- |
 | **1.Configurar un proyecto ágil Scrum en Jira**                                   | 5%       | 4%            | 3%                    | 2%         |
 | **2.Crear historias de usuario en Jira con criterios de aceptación**              | 15%      | 12%           | 10%                    | 5%         |
-| **3. Diseñar pruebas en lenguaje Gherkin usando herramientas de gestión de pruebas**| 35%      | 30%           | 20%                   | 15%         |
+| **3. Diseñar pruebas en lenguaje Gherkin usando herramientas de gestión de pruebas**| 35%      | 30%           | 25%                   | 20%         |
 | **4.Ejecutar pruebas en web y móvil y registrar resultados**                        | 20%      | 15%           | 12%                   | 10%         |
-| **5.Identificar y reportar errores en Jira**                                        | 10%      | 8%            | 6%                    | 3%         |
+| **5.Identificar y reportar errores en Jira**                                        | 10%      | 8%            | 6%                    | 4%         |
 | **6.Crear una release en Jira**                                                     | 5%       | 4%            | 3%                    | 2%         |
 | **7.Crear un plan de pruebas de regresión**                                         | 5%       | 4%            | 3%                    | 2%         |
 | **8.Documentar un plan de pruebas**                                                 | 5%       | 4%            | 3%                    | 2%         |
