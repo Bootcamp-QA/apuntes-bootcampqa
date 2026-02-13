@@ -120,7 +120,7 @@ La página de contacto debe tener in formulario con los siguientes campos:
 - Dirección, obligatoria
 - Número de tarjeta, válida, obligatoria. (Tarjeta de prueba válida 4242 4242 4242 4242)
 - Botón volver al carrito, que volverá a la página de carrito
-- Botón completar compra que si todos los datos del formulario son correctos aparecerá una página de pedido completado con los siguientes datos:
+- Botón completar compra, si algún campo del formulario es incorrecto aparecerá un mensaje de error y si todos los datos del formulario son correctos aparecerá una página de pedido completado con los siguientes datos:
 - Resumen del pedido con:
   - Nombre y precio de cada producto
   - Subtotal (suma del precio de todos los productos)
