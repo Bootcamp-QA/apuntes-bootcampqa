@@ -57,7 +57,7 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
   * Debe mostrarse una lista de productos con la siguiente información: Categoría, Nombre, Precio 
   * Debe ser responsive.
 
-4. **Filtros de productos**
+5. **Filtros de productos**
 
 * **Historia:** Como usuario quiero filtrar los productos para encontrar fácilmente el que se ajuste a mis necesidades.
 * **Criterios de aceptación:**
@@ -72,7 +72,7 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
 
 
 
-5. **Página de contacto**
+6. **Página de contacto**
 
 * **Historia:** Como usuario quiero tener un formulario de contacto para comunicarme con la tienda.
 * **Criterios de aceptación:**
@@ -84,6 +84,52 @@ La página de contacto debe tener in formulario con los siguientes campos:
   * Mensaje de confirmación al enviar correctamente.
   * Indicaciones si hay errores.
   * Debe ser responsive.
+ 
+7. **Carrito de la compra**
+
+* **Historia:** Como usuario quiero tener un carrito de la compra para poder visualizar mi pedido.
+* **Criterios de aceptación:**
+  - En el menú habrá un icono de un carrito que abrirá la página carrito de la compra.
+  - El usuario puede agregar productos al carrito desde la página de productos. Cuando agrege un producto al carrito, aparecerá en la página de carrito el nombre, la imagen, la categoría y el precio del producto añadido.
+  - El usuario puede quitar productos del carrito de dos formas: Desde la página de producto o En la página del carrito. Cuando quite un producto del carrito, desaparecerá de la página de carrito.
+  - Cuando haya productos en el carrito aparecerá:
+  - Un resumen de la compra que incluirá:
+    1. El precio total de los productos añadidos.
+    2. El importe del 21% de IVA
+    3. El coste de envío que será de 5€
+    4. El total de la compra que será la suma los productos mas el iva mas el envio.
+    5. Cuando se agregen o eliminen productos del carrito el precio debe actualizarse.
+
+  - Un botón vaciar carrito, que dejará la página de carrito vacio. Estará disponible solo cuando haya productos en el carrito.
+  - Habrá un enlace seguir comprando, que abrirá la página de productos para seguir agregando productos al carrito.
+  - Cuando el carrito esté vacio, se verá un botón "Ver productos" que abrirá la página de productos.
+ 
+  8. **Finalizar compra**
+ * **Historia:** Como usuario quiero completar la compra de mi pedido.
+* **Criterios de aceptación:**
+* Cuando haya productos en el carrito, aparecerá un botón realizar pago, que llevará a la página de realizar pedido que tendrá lo siguiente:
+* Resumen del pedido que incluirá:
+  - Nombre de los productos con sus precios
+  - Subtotal, suma del precio de todos los productos
+  - IVA 21%, total de iva aplicado.
+  - Envio, 5€
+  - Total, suma total de todas las cantidades.
+* Formulario de datos de envio y pago con los siguientes campos y botones:
+- Nombre Completo, obligatorio
+- Email, obligatorio
+- Dirección, obligatoria
+- Número de tarjeta, válida, obligatoria. (Tarjeta de prueba válida 4242 4242 4242 4242)
+- Botón volver al carrito, que volverá a la página de carrito
+- Botón completar compra que si todos los datos del formulario son correctos aparecerá una página de pedido completado con los siguientes datos:
+- Resumen del pedido con:
+  - Nombre y precio de cada producto
+  - Subtotal (suma del precio de todos los productos)
+  - IVA 21%
+  - Envío 5€
+  - Total: La suma de todos los importes.
+  - Botón Volver a la tienda, que abrirá la página de productos
+  - Botón ir al inicio, que abrirá la página de inicio.
+  - Si algún campo del formulario es incorrecto aparecerá un mensaje de error.
 
 ## Entrega 2 - Diseño de pruebas
 **Objetivo 3:** Diseñar pruebas para cada historia de usuario creada aplicando técnicas de prueba adecuadas.
