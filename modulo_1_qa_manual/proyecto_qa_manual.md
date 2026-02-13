@@ -103,8 +103,8 @@ La página de contacto debe tener in formulario con los siguientes campos:
   - Un botón vaciar carrito, que dejará la página de carrito vacio. Estará disponible solo cuando haya productos en el carrito.
   - Habrá un enlace seguir comprando, que abrirá la página de productos para seguir agregando productos al carrito.
   - Cuando el carrito esté vacio, se verá un botón "Ver productos" que abrirá la página de productos.
- 
-  8. **Finalizar compra**
+
+8. **Finalizar compra**
  * **Historia:** Como usuario quiero completar la compra de mi pedido.
 * **Criterios de aceptación:**
 * Cuando haya productos en el carrito, aparecerá un botón realizar pago, que llevará a la página de realizar pedido que tendrá lo siguiente:
