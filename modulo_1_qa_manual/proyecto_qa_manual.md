@@ -25,7 +25,6 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
   * El menú muestra los enlaces: Inicio, Sobre Nosotros, Contacto y Reservas.
   * Cada enlace lleva a su sección correspondiente.
   * El menú está visible en todas las páginas.
-  * Debe ser responsive.
 
 2. **Página de inicio**
 
@@ -36,7 +35,6 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
   * Se muestra una descripción.
   * Hay una imagen de la tienda.
   * Hay un botón para abrir la página de productos de la tienda.
-  * Debe ser responsive.
  
 3. **Página Sobre Nosotros**
 
@@ -46,7 +44,6 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
   * La página incluye un título "Sobre Nosotros"
   * La página incluye información sobre la historia y los valores de la tienda.
   * La página muestra una imagen del equipo.
-  * Debe ser responsive.
 
 4. **Página de productos**
 
@@ -55,7 +52,6 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
 
   * La página muestra el título "Nuestros Productos".
   * Debe mostrarse una lista de productos con la siguiente información: Categoría, Nombre, Precio 
-  * Debe ser responsive.
 
 5. **Filtros de productos**
 
@@ -64,11 +60,11 @@ El proyecto consiste en crear y ejecutar un plan de pruebas manuales para una p�
 
   La página debe tener los siguientes filtros disponibles:
 
-  * Filtrar por nombre: Debe mostrar los productos cuyo nombre contenga el texto introducido.
-  * Filtrar precio: Puede filtrar por precio mínimo, precio máximo, o rango de precio mínimo y máximo. Debe mostrar los productos que estén dentro del rango de precio introducido.
-  * Filtrar por categoría: Plantas, herramientas o macetas. Debe mostrar los productos que tengan la categoría seleccionada.
-  * Los filtros pueden combinarse.
-  * Si no existen coincidencias, se debe mostrar un mensaje informativo.
+  * Filtrar por nombre: Debe mostrar los productos cuyo nombre contenga el texto introducido. Si no existen coincidencias, se debe mostrar un mensaje informativo
+  * Filtrar precio: Puede filtrar por precio mínimo, precio máximo, o rango de precio mínimo y máximo. Debe mostrar los productos que estén dentro del rango de precio introducido. Si no existen coincidencias, se debe mostrar un mensaje informativo
+  * Filtrar por categoría: Plantas, herramientas o macetas. Debe mostrar los productos que tengan la categoría seleccionada. Si no existen coincidencias, se debe mostrar un mensaje informativo
+  * Los filtros pueden combinarse. Si no existen coincidencias, se debe mostrar un mensaje informativo
+  
 
 
 
@@ -81,25 +77,25 @@ La página de contacto debe tener in formulario con los siguientes campos:
   * email (obligatorio), con formato email válido.
   * teléfono (opcional), con formato teléfono valido (solo números o prefijo +)
   * mensaje (obligatorio, con máximo 500 caracteres).
-  * Mensaje de confirmación al enviar correctamente.
-  * Indicaciones si hay errores.
-  * Debe ser responsive.
+  
+
  
 7. **Carrito de la compra**
 
 * **Historia:** Como usuario quiero tener un carrito de la compra para poder visualizar mi pedido.
 * **Criterios de aceptación:**
   - En el menú habrá un icono de un carrito que abrirá la página carrito de la compra.
-  - El usuario puede agregar productos al carrito desde la página de productos. Cuando agrege un producto al carrito, aparecerá en la página de carrito el nombre, la imagen, la categoría y el precio del producto añadido.
-  - El usuario puede quitar productos del carrito de dos formas: Desde la página de producto o En la página del carrito. Cuando quite un producto del carrito, desaparecerá de la página de carrito.
-  - Cuando haya productos en el carrito aparecerá:
-  - Un resumen de la compra que incluirá:
+  - Cuando haya productos en el carrito aparecerá un resumen de la compra que incluirá:
     1. El precio total de los productos añadidos.
     2. El importe del 21% de IVA
     3. El coste de envío que será de 5€
     4. El total de la compra que será la suma los productos mas el iva mas el envio.
-    5. Cuando se agregen o eliminen productos del carrito el precio debe actualizarse.
 
+  - El usuario puede agregar productos al carrito desde la página de productos. Cuando agrege un producto al carrito, aparecerá en la página de carrito el nombre, la imagen, la categoría y el precio del producto añadido. El resumen de la compra se actualizará.
+  - El usuario puede quitar productos del carrito, cuando quite un producto del carrito, desaparecerá de la página de carrito y el resumen de la compra se actualizará. Puede eliminar del carrito de dos formas:
+  1. Desde la página de producto
+  2. Desde la página del carrito. 
+  
   - Un botón vaciar carrito, que dejará la página de carrito vacio. Estará disponible solo cuando haya productos en el carrito.
   - Habrá un enlace seguir comprando, que abrirá la página de productos para seguir agregando productos al carrito.
   - Cuando el carrito esté vacio, se verá un botón "Ver productos" que abrirá la página de productos.
@@ -120,7 +116,7 @@ La página de contacto debe tener in formulario con los siguientes campos:
 - Dirección, obligatoria
 - Número de tarjeta, válida, obligatoria. (Tarjeta de prueba válida 4242 4242 4242 4242)
 - Botón volver al carrito, que volverá a la página de carrito
-- Botón completar compra, si algún campo del formulario es incorrecto aparecerá un mensaje de error y si todos los datos del formulario son correctos aparecerá una página de pedido completado con los siguientes datos:
+- Botón completar comprar, si todos los datos del formulario son correctos aparecerá una página de pedido completado con los siguientes datos:
 - Resumen del pedido con:
   - Nombre y precio de cada producto
   - Subtotal (suma del precio de todos los productos)
@@ -129,7 +125,6 @@ La página de contacto debe tener in formulario con los siguientes campos:
   - Total: La suma de todos los importes.
   - Botón Volver a la tienda, que abrirá la página de productos
   - Botón ir al inicio, que abrirá la página de inicio.
-  - Si algún campo del formulario es incorrecto aparecerá un mensaje de error.
 
 ## Entrega 2 - Diseño de pruebas
 **Objetivo 3:** Diseñar pruebas para cada historia de usuario creada aplicando técnicas de prueba adecuadas.
