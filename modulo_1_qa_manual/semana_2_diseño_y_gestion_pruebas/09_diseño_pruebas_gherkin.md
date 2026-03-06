@@ -1,4 +1,4 @@
-#Diseño de Pruebas en lenguaje Gherkin
+# Diseño de Pruebas en lenguaje Gherkin y buenas prácticas
 ## Tipos de Casos de Pruebas
 
 ### Caso de prueba positivo
