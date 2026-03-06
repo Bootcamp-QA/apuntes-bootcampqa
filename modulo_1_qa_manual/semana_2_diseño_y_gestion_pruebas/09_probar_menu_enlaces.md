@@ -17,8 +17,11 @@ When hace clic en el <menu>
 Then debe ver la <pagina>
 
 Examples:
+
 | menu | pagina |
+
 | Inicio | Inicio |
+
 | Contacto | Contacto |
 
 Scenario: Abrir enlace instagram
