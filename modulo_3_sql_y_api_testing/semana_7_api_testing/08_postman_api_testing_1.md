@@ -10,13 +10,9 @@
 
 
 
-## 4. Creación de Peticiones GET en Postman
+## 1. Creación de Peticiones GET en Postman
 
-Aquí te explicamos cómo crear y configurar solicitudes GET en Postman.
-
-### 4.1. Solicitud GET
-
-Las solicitudes GET se utilizan para obtener datos del servidor. Para crear una solicitud GET en Postman:
+Aquí te explicamos cómo crear y configurar solicitudes GET en Postman. Las solicitudes GET se utilizan para obtener datos del servidor. Para crear una solicitud GET en Postman:
 
 1. Selecciona la colección en la que deseas agregar la solicitud.  
 2. Haz clic en el botón "Add Request" para crear una nueva solicitud.  
@@ -30,7 +26,7 @@ URL: https://api.example.com/users/1
 Método: GET
 ```
 
-## 5. Autenticación
+## 2. Autenticación
 
 Algunas APIs por seguridad requiren autorización. Hay varios tipos, depende de la API. En el caso de Supabase, usa de tipo API KEY. Para agregar la autentificación en postman sigue estos pasos:
 
@@ -45,7 +41,7 @@ Algunas APIs por seguridad requiren autorización. Hay varios tipos, depende de 
 
 Con estos pasos, tu solicitud incluirá automáticamente las credenciales de autenticación básica.
 
-## 6. Agregar Tests o Pruebas a las Solicitudes
+## 3. Agregar Tests o Pruebas a las Solicitudes
 
 Los tests en Postman te permiten validar la respuesta de una solicitud. Para agregar un test:
 
@@ -66,7 +62,7 @@ pm.test("El nombre del usuario es John Doe", function () {
 });
 ```
 
-## 7. Uso y Guardado de Variables
+## 4. Uso y Guardado de Variables
 
 Las variables en Postman te permiten reutilizar valores en tus solicitudes. Para guardar una variable de respuesta:
 
@@ -84,7 +80,7 @@ pm.environment.set("userId", responseData.id);
 
 Ahora puedes usar la variable `{{userId}}` en otras solicitudes.
 
-## 8. Ejecución de Colecciones con Postman Runner
+## 5. Ejecución de Colecciones con Postman Runner
 
 Puedes ejecutar todas las solicitudes de una colección en secuencia usando Postman Runner.
 
@@ -95,7 +91,7 @@ Puedes ejecutar todas las solicitudes de una colección en secuencia usando Post
 
 Postman Runner te permite automatizar la ejecución de pruebas y revisar los resultados en un solo lugar.
 
-## 9. Exportar Resultados con Postman
+## 6. Exportar Resultados con Postman
 
 Puedes exportar los resultados de tus pruebas para su análisis o informes.
 
